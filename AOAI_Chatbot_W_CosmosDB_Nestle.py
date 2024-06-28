@@ -7,6 +7,7 @@ import uuid
 import json
 import requests
 import io
+import re
 
 # Azure Open AI Configuration
 api_base = st.secrets["AOAI_API_BASE"] # your endpoint should look like the following https://YOUR_RESOURCE_NAME.openai.azure.com/
@@ -40,6 +41,19 @@ def speech_to_text(audio:bytes)->str:
     # empty the buffer
     buffer.close()
     return result.text
+
+# Function TTS
+def text_to_speech(input:str):
+    headers = {'Content-Type':'application/json', 'api-key': api_key}
+    url = f"{api_base}openai/deployments/{tts}/audio/speech?api-version=2024-05-01-preview"
+    body = {
+        "input": input,
+        "voice": "echo",
+        "model": "tts",
+        "response_format": "mp3"
+    }
+    response = requests.post(url, headers=headers, data=json.dumps(body))
+    return response.content
 
 st.title("Azure OpenAI Chatbot that knows Nestlé")
 
@@ -313,8 +327,10 @@ with conversation_container:
                 with st.chat_message(message["role"]):  
                     st.markdown(message["content"]) 
         with st.chat_message("assistant"):  
-            result= nestle_chat(prompt, st.session_state.messages) 
+            result= nestle_chat(prompt, st.session_state.messages)
+            # trim the result to remove all occurances of text wrapped within brackets, e.g. (source_page: "Nestle") and (source_url: "https://www.nestle.com/")
+            audio_text = re.sub(r'\([^)]*\)', '', result)
+            st.audio(text_to_speech(audio_text), format="audio/mp3", autoplay=True)
             st.markdown(result)
         st.session_state.messages.append({"role": "assistant", "content": result}) 
         save_chat(st.session_state.session_id, user_id, st.session_state.messages)  # Save the session 
-        print(voice_prompt)
