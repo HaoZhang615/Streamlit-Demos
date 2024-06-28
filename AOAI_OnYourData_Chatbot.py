@@ -182,7 +182,7 @@ if prompt := st.chat_input(f"请寻找以下参数: {Parameter_Name}"):
     with st.chat_message("assistant"): 
         st.markdown(aoai_on_your_data(prompt,File_Name))
     st.session_state.messages.append({"role": "assistant", "content": aoai_on_your_data(prompt,File_Name)})  
-elif submit_button:
+if submit_button:
     # Display chat history
     st.session_state.messages.append({"role": "user", "content": init_prompt})
     with st.chat_message("user"):
