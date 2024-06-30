@@ -173,12 +173,6 @@ def search_web(query, up_to_date:bool=False):
 
 # Function with function calling
 def nestle_chat(user_request, conversation_history: list = []):
-    # instantiate the AzureOpenAI client
-    client = AzureOpenAI(
-        api_key=api_key,  
-        api_version=api_version,
-        azure_endpoint = api_base,
-    )
     messages = [
         {
             "role": "system",
@@ -268,7 +262,7 @@ def nestle_chat(user_request, conversation_history: list = []):
             model= gpt4_o,
             messages=messages,
             temperature=temperature,
-            max_tokens=Max_Token
+            max_tokens=Max_Token,
         )
         return second_response.choices[0].message.content
     else:
@@ -282,21 +276,21 @@ cosmos_key = st.secrets["COSMOS_KEY"]
 cosmos_client = CosmosClient(cosmos_endpoint, cosmos_key)
 database_name = st.secrets["COSMOS_DATABASE"]
 database = cosmos_client.create_database_if_not_exists(id=database_name)  
-container_name = st.secrets["COSMOS_CONTAINER"]  
+container_name = "AI_Conversations"  
 container = database.create_container_if_not_exists(  
     id=container_name,   
     partition_key=PartitionKey(path="/user_id"),  
     offer_throughput=400  
 ) 
 
-user_id = st.secrets["COSMOS_USER_ID"]  # Ensure a user-specific identification logic if needed  
+customer_id = st.secrets["COSMOS_CUSTOMER_ID"]  # Ensure a user-specific identification logic if needed 
 
 # Function to save chat to Cosmos DB  
-def save_chat(session_id, user_id, messages):  
+def save_chat(session_id, customer_id, messages):  
     document_id = f"chat_{session_id}"  # Create a document ID that is consistent throughout the session  
     try:  
         # Attempt to read the existing document  
-        item = container.read_item(item=document_id, partition_key=user_id)
+        item = container.read_item(item=document_id, partition_key=customer_id)
         item['messages'] = messages  # Update the messages  
         container.replace_item(item=item, body=item)  
     except exceptions.CosmosResourceNotFoundError:  
@@ -304,7 +298,7 @@ def save_chat(session_id, user_id, messages):
         container.create_item({  
             'id': document_id,  
             'session_id': session_id,  
-            'user_id': user_id,  
+            'customer_id': customer_id,
             'messages': messages  
         })
   
@@ -333,4 +327,4 @@ with conversation_container:
             st.audio(text_to_speech(audio_text), format="audio/mp3", autoplay=True)
             st.markdown(result)
         st.session_state.messages.append({"role": "assistant", "content": result}) 
-        save_chat(st.session_state.session_id, user_id, st.session_state.messages)  # Save the session 
+        save_chat(st.session_state.session_id, customer_id, st.session_state.messages)  # Save the session 
