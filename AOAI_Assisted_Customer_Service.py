@@ -2,6 +2,7 @@ import streamlit as st
 from azure.cosmos import CosmosClient, exceptions
 from openai import AzureOpenAI
 import json
+import uuid
 
 st.set_page_config(
     page_title="Azure AI assisted Customer Contact Center",
@@ -34,6 +35,7 @@ database = cosmos_client.create_database_if_not_exists(id=database_name)
 customer_container_name = "Customer"
 purchase_container_name = "Purchases"
 ai_conversations_container_name = "AI_Conversations"
+human_conversations_container_name = "Human_Conversations"
 
 def get_customer_info(customer_id):
     # Get the database and container
@@ -144,8 +146,9 @@ def display_prior_conversation_summary(summary):
 
 def generate_recommended_reply(customer_id):
     system_message = """
-You are a senior customer service representative who is good at giving next-turn reply to keep an engaging conversation. You got forwarded an existing customer service conversation done by another junior representative with extended context of customer information and previous purchases.
-In your response, you always begins with a warm greeting addressing the customer's first name directly like 'Hi <first_name>'. This is a live chat so do expect a quick response from the customer, do not reply like the customer is offline.
+You are a senior customer service agent who is good at giving next-turn reply to keep an engaging conversation and solving customer's problem. 
+You got forwarded an existing customer service conversation done by another junior agent with extra provided context of customer information and previous purchases.
+This is a live chat so do expect a quick response from the customer, do not reply like the customer is offline. You will initiate the conversation with the customer.
 The existing conversation:\n\n"""
     prior_conversation = get_prior_conversation(customer_id)
     for message in prior_conversation['messages']:
@@ -155,24 +158,92 @@ The existing conversation:\n\n"""
     system_message += f"Customer Information:\n{customer_info_str}"
     previous_purchases = get_previous_purchases(customer_id)
     previous_purchases_str = json.dumps(previous_purchases, indent=4)
-    system_message += f"Previous Purchases:\n{previous_purchases_str}"
-    prompt = "Based on the conversation and extended content, provide a recommended reply to the customer.\n\n"
-    completion = client.chat.completions.create(
-    model=gpt4_o,
-    temperature=0.5,
-    max_tokens=800,
+    system_message += f"Previous Purchases the customer made:\n{previous_purchases_str}"
     messages=[
         {
             "role": "system",
             "content": system_message,
-        },
-        {
-            "role": "user",
-            "content": prompt,
         }
-    ],
+        ]
+    if "messages" in st.session_state:
+        messages.extend(st.session_state.messages)
+    completion = client.chat.completions.create(
+    model=gpt4_o,
+    temperature=0.5,
+    max_tokens=800,
+    messages=messages,
 )
     return completion.choices[0].message.content
+
+def human_chat(customer_id):
+    system_message = """you are in a role playing game simulating what a real-life human would say in a customer service conversation. 
+            The user simulates what a friendly customer service agent would say and you will pretend to be a real-world grumpy user seeking for help. 
+            You will finish the conversation within 3 turns, either happily accepting the provided help or leaving the conversation with a negative sentiment.
+            """
+    prior_conversation = get_prior_conversation(customer_id)
+    for message in prior_conversation['messages']:
+        system_message += f"{message['role'].capitalize()}: {message['content']}\n"
+    customer_info = get_customer_info(customer_id)
+    customer_info_str = json.dumps(customer_info, indent=4)
+    system_message += f"Customer Information:\n{customer_info_str}"
+    previous_purchases = get_previous_purchases(customer_id)
+    previous_purchases_str = json.dumps(previous_purchases, indent=4)
+    system_message += f"Previous Purchases the customer made:\n{previous_purchases_str}"
+    messages=[
+        {
+            "role": "system",
+            "content": system_message,
+        }
+        ]
+    if "messages" in st.session_state:
+        messages.extend(st.session_state.messages)
+    print(messages)
+    completion = client.chat.completions.create(
+    model=gpt4_o,
+    temperature=0.5,
+    max_tokens=800,
+    messages=messages,
+)
+    return completion.choices[0].message.content
+
+def save_chat(session_id, customer_id, messages):  
+    document_id = f"chat_{session_id}"  # Create a document ID that is consistent throughout the session  
+    container = database.get_container_client(human_conversations_container_name)
+    try:  
+        # Attempt to read the existing document  
+        item = container.read_item(item=document_id, partition_key=customer_id)
+        item['messages'] = messages  # Update the messages  
+        container.replace_item(item=item, body=item)  
+    except exceptions.CosmosResourceNotFoundError:  
+        # If the document does not exist, create a new one  
+        container.create_item({  
+            'id': document_id,  
+            'session_id': session_id,  
+            'customer_id': customer_id,
+            'messages': messages  
+        })
+
+def swap_role_in_chat_messages(session_id, customer_id):
+    # update the data in Cosmos DB of the current session to swap the role of the user and the assistant
+    container = database.get_container_client(human_conversations_container_name)
+    document_id = f"chat_{session_id}"
+    try:
+        item = container.read_item(item=document_id, partition_key=customer_id)
+        # Iterate through messages and swap the role
+        for message in item['messages']:
+            if message['role'] == 'user':
+                message['role'] = 'assistant'
+            elif message['role'] == 'assistant':
+                message['role'] = 'user'
+        # Update the document with the modified messages
+        container.replace_item(item=item, body=item)
+    except exceptions.CosmosResourceNotFoundError:
+        print(f"Document with session_id {session_id} and customer_id {customer_id} not found.")
+
+# Initialize session state attributes  
+if "messages" not in st.session_state:  
+    st.session_state.messages = []  
+    st.session_state.session_id = str(uuid.uuid4())  # Unique session ID  
 
 # Define the layout with columns
 left_col, right_col = st.columns([1, 2])
@@ -203,11 +274,65 @@ with left_col:
 # Add components to the right column
 with right_col:
     st.subheader("Recommended Reply")
-    if customer_id:
+
+    # Add the button next to the "Recommended Reply" label
+    col1, col2, col3 = st.columns([4, 1, 1])
+    with col1:
+        st.write("")
+    with col2:
+        regenerate_button = st.button("Regenerate")
+    with col3:
+        submit_button = st.button("Submit Reply")
+
+    if customer_id or regenerate_button:
         recommended_reply = generate_recommended_reply(customer_id)
-        st.text_area("Recommended Reply", recommended_reply, height=200)
     else:
         st.write("Please enter a customer ID to generate a recommended reply.")
+    recommended_reply_box = st.text_area(":sunglasses:", recommended_reply, height=200, label_visibility = "collapsed", on_change = True)
+
+    # Save the content of the recommended reply to a variable when the button is clicked
+    if submit_button:
+        assisted_prompt = recommended_reply_box
 
     st.subheader("Live Chat")
-    st.image("Picture1.png", caption="Live Chat Interface", use_column_width=True)
+    # Function to save chat to Cosmos DB  
+
+    col1, col2 = st.columns([4, 1])
+    with col1:
+        st.write("")
+    with col2:
+        persist_button = st.button("Persist Chat")
+
+    if persist_button:
+        swap_role_in_chat_messages(st.session_state.session_id, customer_id)
+  
+    # create a container with fixed height and scroll bar for conversation history
+    conversation_container = st.container(height = 600, border=False)
+    # Handle new message  
+    if text_prompt := st.chat_input("type your request here..."):
+        prompt = text_prompt
+    elif submit_button:
+        prompt = assisted_prompt
+    else:
+        prompt = None
+
+    with conversation_container:
+        if prompt:
+            st.session_state.messages.append({"role": "user", "content": prompt})
+            # Display the conversation history
+            for message in st.session_state.messages:
+                if message["role"] != "system":  
+                    with st.chat_message(message["role"]):  
+                        st.markdown(message["content"]) 
+            with st.chat_message("assistant"):  
+                result= human_chat(customer_id)
+                st.markdown(result)
+            st.session_state.messages.append({"role": "assistant", "content": result}) 
+            save_chat(st.session_state.session_id, customer_id, st.session_state.messages)  # Save the session
+            recommended_reply = generate_recommended_reply(customer_id)
+        else:
+            # Display the conversation history
+            for message in st.session_state.messages:
+                if message["role"] != "system":  
+                    with st.chat_message(message["role"]):  
+                        st.markdown(message["content"])
