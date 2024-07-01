@@ -23,7 +23,7 @@ client = AzureOpenAI(
     azure_endpoint = api_base,
 )
 st.set_page_config(
-    page_title="Azure OpenAI Chatbot that knows Nestlé",
+    page_title="Azure OpenAI powered Self Service Chatbot",
     page_icon="🧊",
     layout="wide",
     initial_sidebar_state="expanded"
@@ -55,7 +55,8 @@ def text_to_speech(input:str):
     response = requests.post(url, headers=headers, data=json.dumps(body))
     return response.content
 
-st.title("Azure OpenAI Chatbot that knows Nestlé")
+st.title("Azure OpenAI powered Self Service Chatbot")
+
 
 # Sidebar Configuration -- BEGIN
 with st.sidebar:
@@ -74,6 +75,8 @@ with st.sidebar:
         value=800,
         step=64
     )
+    # add toggle to turn on and off the audio player
+    voice_on = st.toggle(label="Enable Voice Output", value=False)
     # dropdown for selecting the model with options for gpt-3.5 and gpt-4o, default is gpt-3.5. 
     # If gpt-3.5 is selected, the model is set to use value of secret AOAI_GPT35_MODEL, else it uses AOAI_GPT4_MODEL
     model = st.selectbox("Select Model", ["gpt-3.5", "gpt-4o"], index=0)
@@ -82,8 +85,27 @@ with st.sidebar:
     else:    
         model = st.secrets["AOAI_GPT4_MODEL"]
     # st.subheader("Custom recorder") # https://github.com/Joooohan/audio-recorder-streamlit/blob/main/audio_recorder_streamlit/__init__.py
+
+    Customer_Name = st.selectbox("Sign in as:", 
+                           ["Jennifer Jones", 
+                            "William Williams",
+                            "Michael Smith",
+                            "Linda Miller",
+                            "Jennifer Davis"], index=0)
+    # switch logic to match the selected customer name to the customer_id 1 to 5 respectively
+    if Customer_Name == "Jennifer Jones":
+        customer_id = 1
+    elif Customer_Name == "William Williams":
+        customer_id = 2
+    elif Customer_Name == "Michael Smith":
+        customer_id = 3
+    elif Customer_Name == "Linda Miller":
+        customer_id = 4
+    else:
+        customer_id = 5
+
     custom_audio_bytes = audio_recorder(
-        text="",
+        text="Click the microphone to start recording\n",
         recording_color="#e8b62c",
         neutral_color="#6aa36f",
         icon_size="3x",
@@ -173,17 +195,22 @@ def search_web(query, up_to_date:bool=False):
 
 # Function with function calling
 def nestle_chat(user_request, conversation_history: list = []):
-    messages = [
-        {
-            "role": "system",
-            "content": """You are a helpful assistant that help people find information about Nestle and the major brands owned by it.
+    system_message = """You are a helpful assistant that help people find information about Nestle and the major brands owned by it.
             IMPORTANT: It is crucial to contextualize first what is the user request really about based on user intent and chat history as your context, and then choose the function to use. Slow down and think step by step.
             Only call functions with arguments coming verbatim from the user or the output of other functions.
             Remind the user briefly at the end of your answer which web url you used to get the information.
             If the question is not related to Nestle, its products, or the brands Nestle owns, you can answer the question directly using your own knowledge without calling any function.
             If the question is about any of Nestle or its brands competitors, politely decline to answer.
-            """,
-        }]
+            """
+    customer_info = get_customer_info(customer_id)
+    customer_info_str = json.dumps(customer_info, indent=4)
+    system_message += f"Customer Information:\n{customer_info_str}"
+    messages=[
+        {
+            "role": "system",
+            "content": system_message,
+        }
+        ]
     messages.extend(conversation_history)
     # Step 1: send the conversation and available functions to the model
     messages.append({"role": "user", "content": user_request})
@@ -277,13 +304,46 @@ cosmos_client = CosmosClient(cosmos_endpoint, cosmos_key)
 database_name = st.secrets["COSMOS_DATABASE"]
 database = cosmos_client.create_database_if_not_exists(id=database_name)  
 container_name = "AI_Conversations"  
+customer_container_name = "Customer"
 container = database.create_container_if_not_exists(  
     id=container_name,   
-    partition_key=PartitionKey(path="/user_id"),  
+    partition_key=PartitionKey(path="/customer_id"),  
     offer_throughput=400  
 ) 
 
-customer_id = st.secrets["COSMOS_CUSTOMER_ID"]  # Ensure a user-specific identification logic if needed 
+def get_customer_info(customer_id):
+    # Get the database and container
+    database = cosmos_client.get_database_client(database_name)
+    container = database.get_container_client(customer_container_name)
+
+    try:
+        # Query the container for the customer information
+        query = f"SELECT * FROM c WHERE c.customer_id = '{customer_id}'"
+        items = list(container.query_items(query, enable_cross_partition_query=True))
+        
+        if items:
+            return items[0]
+        else:
+            return None
+    except exceptions.CosmosResourceNotFoundError:
+        return None
+    
+def display_customer_info(customer_info):
+    if customer_info:
+        left, right = st.columns(2)
+        with left:
+            st.write(f"**Customer ID:** {customer_info['customer_id']}")
+            st.write(f"**Name:** {customer_info['first_name']} {customer_info['last_name']}")
+            st.write(f"**Email:** {customer_info['email']}")
+        with right:
+            st.write(f"**Phone Number:** {customer_info['phone_number']}")
+            st.write("**Address:**")
+            st.write(f"{customer_info['address']['street']}, "
+                     f"{customer_info['address']['city']}, "
+                     f"{customer_info['address']['postal_code']}, "
+                     f"{customer_info['address']['country']}")
+    else:
+        st.write("Customer information not found.")
 
 # Function to save chat to Cosmos DB  
 def save_chat(session_id, customer_id, messages):  
@@ -323,8 +383,9 @@ with conversation_container:
         with st.chat_message("assistant"):  
             result= nestle_chat(prompt, st.session_state.messages)
             # trim the result to remove all occurances of text wrapped within brackets, e.g. (source_page: "Nestle") and (source_url: "https://www.nestle.com/")
-            audio_text = re.sub(r'\([^)]*\)', '', result)
-            st.audio(text_to_speech(audio_text), format="audio/mp3", autoplay=True)
             st.markdown(result)
+            if voice_on:
+                audio_text = re.sub(r'\([^)]*\)', '', result)
+                st.audio(text_to_speech(audio_text), format="audio/mp3", autoplay=True)
         st.session_state.messages.append({"role": "assistant", "content": result}) 
         save_chat(st.session_state.session_id, customer_id, st.session_state.messages)  # Save the session 
