@@ -1,0 +1,70 @@
+{
+    "customer_id": 17,
+    "messages": [
+        {
+            "role": "assistant",
+            "content": "Thank you for calling Nestl\u00e9 customer service. My name is Fred. May I ask who I am speaking with today?"
+        },
+        {
+            "role": "user",
+            "content": "This is Paula. And I'm really frustrated right now!"
+        },
+        {
+            "role": "assistant",
+            "content": "I'm sorry to hear that, Paula. How can I assist you today?"
+        },
+        {
+            "role": "user",
+            "content": "I received a bill for my Nespresso Coffee Capsules, and it's way higher than it should be! What is going on?"
+        },
+        {
+            "role": "assistant",
+            "content": "I apologize for any inconvenience, Paula. Let me pull up your account information and take a look at the billing details for you. Could you please provide your account number or the email associated with your Nespresso account?"
+        },
+        {
+            "role": "user",
+            "content": "My account number is 123456. You better fix this quickly."
+        },
+        {
+            "role": "assistant",
+            "content": "Thank you, Paula. I\u2019m retrieving your account details now. Please bear with me for a moment."
+        },
+        {
+            "role": "assistant",
+            "content": "Paula, I see that there was an additional charge for an expedited shipping option. Could that be the reason for the higher bill?"
+        },
+        {
+            "role": "user",
+            "content": "No, I never selected expedited shipping! This is ridiculous. You guys are just trying to rip me off."
+        },
+        {
+            "role": "assistant",
+            "content": "I apologize for the misunderstanding, Paula. Let me investigate this further and see what we can do to rectify the situation."
+        },
+        {
+            "role": "assistant",
+            "content": "Paula, it appears there was a system error that automatically added the expedited shipping charge to your bill. I have removed the charge, and you should see the corrected amount on your next billing statement."
+        },
+        {
+            "role": "user",
+            "content": "This is unacceptable. How often does this happen? Can I trust you guys with my billing information?"
+        },
+        {
+            "role": "assistant",
+            "content": "I understand your frustration, Paula, and I assure you that this is a rare occurrence. We are taking steps to prevent such errors in the future. Your trust is very important to us."
+        },
+        {
+            "role": "user",
+            "content": "It better not happen again. Thanks for fixing it, but I'm still not happy about this."
+        },
+        {
+            "role": "assistant",
+            "content": "I understand, Paula. If there's anything else I can assist you with today, please let me know."
+        }
+    ],
+    "agent_id": 4,
+    "session_id": "7274a251-d1c0-4bbc-bcd8-df332df95bc4",
+    "topic": "billing",
+    "product": "Nespresso Coffee Capsule",
+    "sentiment": "angry"
+}

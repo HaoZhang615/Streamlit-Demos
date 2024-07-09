@@ -1,0 +1,62 @@
+{
+    "customer_id": 15,
+    "messages": [
+        {
+            "role": "assistant",
+            "content": "Thank you for calling Nestl\u00e9 customer service. My name is Emil. May I know your name, please?"
+        },
+        {
+            "role": "user",
+            "content": "Hi Emil, my name is Fiona."
+        },
+        {
+            "role": "assistant",
+            "content": "Nice to meet you, Fiona. How can I assist you today?"
+        },
+        {
+            "role": "user",
+            "content": "I recently bought a pack of Nespresso Coffee Capsules, but some of them were damaged when I opened the box."
+        },
+        {
+            "role": "assistant",
+            "content": "I'm sorry to hear that, Fiona. Can you please describe the damage to the capsules?"
+        },
+        {
+            "role": "user",
+            "content": "Sure, a few of the capsules were crushed, and one of them had a small puncture."
+        },
+        {
+            "role": "assistant",
+            "content": "Thank you for providing those details. I'll need to gather a bit more information to assist you further. Can you please provide the batch number and the date of purchase?"
+        },
+        {
+            "role": "user",
+            "content": "The batch number is 2078N, and I bought them last Saturday."
+        },
+        {
+            "role": "assistant",
+            "content": "Got it, Fiona. We apologize for the inconvenience. I will arrange for a replacement pack to be sent to you. Can I confirm your delivery address?"
+        },
+        {
+            "role": "user",
+            "content": "Sure, it's 123 Maple Street, Springfield."
+        },
+        {
+            "role": "assistant",
+            "content": "Thank you, Fiona. We will send out a replacement pack to 123 Maple Street, Springfield right away. You should receive it within 3-5 business days. Is there anything else I can help you with today?"
+        },
+        {
+            "role": "user",
+            "content": "No, that's all. Thank you so much for your help, Emil."
+        },
+        {
+            "role": "assistant",
+            "content": "You're welcome, Fiona. Have a great day!"
+        }
+    ],
+    "agent_id": 3,
+    "session_id": "607d1094-b64d-462d-a94d-b46e75b10db3",
+    "topic": "damages",
+    "product": "Nespresso Coffee Capsule",
+    "sentiment": "content"
+}

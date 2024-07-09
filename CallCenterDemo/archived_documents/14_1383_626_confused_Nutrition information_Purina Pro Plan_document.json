@@ -1,0 +1,70 @@
+{
+    "customer_id": 14,
+    "messages": [
+        {
+            "role": "assistant",
+            "content": "Thank you for calling Nestl\u00e9 customer service. My name is Fred. May I know your name, please?"
+        },
+        {
+            "role": "user",
+            "content": "Hi Fred, I'm Kevin."
+        },
+        {
+            "role": "assistant",
+            "content": "Hi Kevin, how can I assist you today?"
+        },
+        {
+            "role": "user",
+            "content": "I'm a bit confused about the nutrition information for Purina Pro Plan. Can you help me out?"
+        },
+        {
+            "role": "assistant",
+            "content": "Of course, Kevin. What specific information are you looking for regarding Purina Pro Plan?"
+        },
+        {
+            "role": "user",
+            "content": "Well, I'm trying to understand the ingredients and nutritional benefits. The labels are a bit overwhelming."
+        },
+        {
+            "role": "assistant",
+            "content": "I understand, Kevin. Purina Pro Plan is designed to offer balanced nutrition for pets. Are you looking for information about a specific type or flavor of Purina Pro Plan?"
+        },
+        {
+            "role": "user",
+            "content": "Yes, I'm looking at the Purina Pro Plan Focus Adult Sensitive Skin & Stomach."
+        },
+        {
+            "role": "assistant",
+            "content": "Got it. The Purina Pro Plan Focus Adult Sensitive Skin & Stomach formula contains ingredients like salmon, rice, and oatmeal. It's designed to be gentle on the digestive system and promote healthy skin and coat. Do you need details on any specific nutrients?"
+        },
+        {
+            "role": "user",
+            "content": "Yes, what's the protein content and are there any specific vitamins or minerals highlighted?"
+        },
+        {
+            "role": "assistant",
+            "content": "The protein content in this formula is about 26%. It also contains essential vitamins and minerals like Vitamin E and Omega-6 fatty acids to support skin and coat health. Does this information help?"
+        },
+        {
+            "role": "user",
+            "content": "Yes, that's helpful. But I'm also concerned about potential allergens. Are there any common allergens in this formula?"
+        },
+        {
+            "role": "assistant",
+            "content": "The formula is designed to avoid common allergens. It does not contain corn, wheat, or soy. However, if your pet has specific allergies, it's always best to consult with your veterinarian. Is there anything else I can assist you with?"
+        },
+        {
+            "role": "user",
+            "content": "No, that's all for now. Thanks, Fred."
+        },
+        {
+            "role": "assistant",
+            "content": "You're welcome, Kevin. If you have any more questions in the future, feel free to reach out. Have a great day!"
+        }
+    ],
+    "agent_id": 3,
+    "session_id": "65e04cb4-7ca7-4db7-9710-2bee8b9dd707",
+    "topic": "Nutrition information",
+    "product": "Purina Pro Plan",
+    "sentiment": "confused"
+}

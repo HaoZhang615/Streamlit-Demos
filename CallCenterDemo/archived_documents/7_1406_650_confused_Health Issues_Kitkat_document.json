@@ -1,0 +1,70 @@
+{
+    "customer_id": 17,
+    "messages": [
+        {
+            "role": "assistant",
+            "content": "Thank you for calling Nestl\u00e9 customer service. My name is Davinci. May I know your name, please?"
+        },
+        {
+            "role": "user",
+            "content": "Hi Davinci, my name is Brian. I'm having some concerns about Kitkat. Can you help me?"
+        },
+        {
+            "role": "assistant",
+            "content": "Of course, Brian. I\u2019m here to help. What seems to be the problem with Kitkat?"
+        },
+        {
+            "role": "user",
+            "content": "Well, I ate a Kitkat bar yesterday and now I'm feeling really sick. Could it be something in the product that caused this?"
+        },
+        {
+            "role": "assistant",
+            "content": "I'm sorry to hear that you're feeling unwell, Brian. Can you tell me more about the symptoms you are experiencing?"
+        },
+        {
+            "role": "user",
+            "content": "I've been having stomach pain and nausea since last night. I just don't understand what could have caused this."
+        },
+        {
+            "role": "assistant",
+            "content": "That sounds concerning, Brian. Have you checked the expiration date on the Kitkat bar? Also, were there any other foods you ate around the same time?"
+        },
+        {
+            "role": "user",
+            "content": "Yes, I checked the expiration date, and it was fine. I didn't eat anything unusual, just my regular meals."
+        },
+        {
+            "role": "assistant",
+            "content": "Thank you for the information. It\u2019s possible that you might be experiencing an allergic reaction or a sensitivity to an ingredient in the Kitkat. Have you had any issues with chocolate or other candies before?"
+        },
+        {
+            "role": "user",
+            "content": "Not that I can recall. This is the first time something like this has happened."
+        },
+        {
+            "role": "assistant",
+            "content": "I understand. To be safe, I recommend you consult with a healthcare professional regarding your symptoms. In the meantime, I can report this issue to our quality assurance team. Could you please provide the batch number from the packaging?"
+        },
+        {
+            "role": "user",
+            "content": "Sure, the batch number is 12345678. I really hope this is just a one-time thing."
+        },
+        {
+            "role": "assistant",
+            "content": "Thank you, Brian. We take these matters seriously and will investigate further. If there\u2019s anything else I can assist you with, please let me know."
+        },
+        {
+            "role": "user",
+            "content": "That's all for now. Thanks, Davinci. I\u2019ll talk to a doctor about this."
+        },
+        {
+            "role": "assistant",
+            "content": "You're welcome, Brian. I hope you feel better soon. Have a good day."
+        }
+    ],
+    "agent_id": 3,
+    "session_id": "f09debe2-89d0-4b09-b03e-e6ccc0d190af",
+    "topic": "Health Issues",
+    "product": "Kitkat",
+    "sentiment": "confused"
+}

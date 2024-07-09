@@ -1,0 +1,54 @@
+{
+    "customer_id": 17,
+    "messages": [
+        {
+            "role": "assistant",
+            "content": "Hi there, thank you for contacting Nestl\u00e9 customer service. My name is Curie. May I know your name, please?"
+        },
+        {
+            "role": "user",
+            "content": "It's David. I'm not happy with your product, Purina Pro Plan."
+        },
+        {
+            "role": "assistant",
+            "content": "I'm sorry to hear that, David. Could you please tell me more about the issue you're experiencing?"
+        },
+        {
+            "role": "user",
+            "content": "The last batch I bought was damaged. The cans were dented and some even had leaks. This is unacceptable!"
+        },
+        {
+            "role": "assistant",
+            "content": "I apologize for the inconvenience, David. That certainly doesn't meet our quality standards. Can you provide the batch number and some photos of the damaged cans?"
+        },
+        {
+            "role": "user",
+            "content": "I don\u2019t have time to take pictures. The batch number is 123456. I just want this resolved quickly."
+        },
+        {
+            "role": "assistant",
+            "content": "Thank you for providing the batch number. I'll escalate this issue to our quality control team immediately. In the meantime, can I offer you a replacement or a refund?"
+        },
+        {
+            "role": "user",
+            "content": "A refund would be better. I don\u2019t trust that another batch won\u2019t have the same problem."
+        },
+        {
+            "role": "assistant",
+            "content": "I understand, David. I'll process the refund right away. You should see the amount credited back to your account within 5-7 business days. Is there anything else I can assist you with?"
+        },
+        {
+            "role": "user",
+            "content": "No, just make sure it gets done. Thanks."
+        },
+        {
+            "role": "assistant",
+            "content": "Absolutely, David. I assure you it will be taken care of promptly. Thank you for bringing this to our attention."
+        }
+    ],
+    "agent_id": 4,
+    "session_id": "efb43e4d-65d7-4537-b01b-99706977b96d",
+    "topic": "damages",
+    "product": "Purina Pro Plan",
+    "sentiment": "negative"
+}

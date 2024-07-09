@@ -1,0 +1,62 @@
+{
+    "customer_id": 12,
+    "messages": [
+        {
+            "role": "assistant",
+            "content": "Thank you for contacting Nestl\u00e9 customer service. My name is Emil. May I know your name, please?"
+        },
+        {
+            "role": "user",
+            "content": "Hi Emil, my name is Michael."
+        },
+        {
+            "role": "assistant",
+            "content": "Nice to meet you, Michael. How can I assist you today?"
+        },
+        {
+            "role": "user",
+            "content": "I recently purchased the Gerber Goodstart Gentle Pro, but I think it might be damaged. Can you help me with this?"
+        },
+        {
+            "role": "assistant",
+            "content": "I'm sorry to hear that, Michael. Could you please describe the issue you're experiencing with the product?"
+        },
+        {
+            "role": "user",
+            "content": "Well, the packaging seemed fine, but when I opened it, the formula inside looked clumpy and didn\u2019t dissolve properly. Is this normal?"
+        },
+        {
+            "role": "assistant",
+            "content": "No, that's definitely not normal. The formula should be smooth and dissolve easily. Could you please provide me with the batch number and expiration date from the packaging?"
+        },
+        {
+            "role": "user",
+            "content": "Sure, the batch number is 12345678 and the expiration date is March 2025. What should I do now?"
+        },
+        {
+            "role": "assistant",
+            "content": "Thank you for providing those details, Michael. It sounds like you might have received a defective product. I will arrange for a replacement to be sent to you immediately. Could you please confirm your shipping address?"
+        },
+        {
+            "role": "user",
+            "content": "Yes, it's 123 Maple Street, Springfield. How long will it take to receive the replacement?"
+        },
+        {
+            "role": "assistant",
+            "content": "Thank you, Michael. The replacement should arrive within 5-7 business days. In the meantime, if you have any other questions or need further assistance, please do not hesitate to reach out."
+        },
+        {
+            "role": "user",
+            "content": "Alright, I appreciate your help, Emil. I\u2019ll be on the lookout for the replacement."
+        },
+        {
+            "role": "assistant",
+            "content": "You're welcome, Michael. Have a great day!"
+        }
+    ],
+    "agent_id": 4,
+    "session_id": "e68306ac-fc1d-4f4e-bd70-3b572e37c86b",
+    "topic": "damages",
+    "product": "Gerber Goodstart gentle pro",
+    "sentiment": "confused"
+}

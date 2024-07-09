@@ -1,0 +1,54 @@
+{
+    "customer_id": 12,
+    "messages": [
+        {
+            "role": "assistant",
+            "content": "Thank you for calling Nestl\u00e9 customer service. This is Adam speaking. May I know your name, please?"
+        },
+        {
+            "role": "user",
+            "content": "It's George. Where is my Nespresso Coffee Capsule delivery? It's been weeks!"
+        },
+        {
+            "role": "assistant",
+            "content": "Hello George, I'm really sorry to hear about the delay. Let me check the status of your delivery right away. Can you please provide your order number?"
+        },
+        {
+            "role": "user",
+            "content": "Order number? It's 987654. This is ridiculous, I paid for expedited shipping!"
+        },
+        {
+            "role": "assistant",
+            "content": "I understand your frustration, George. I'm pulling up your order details now. It appears there was a delay at our warehouse. I apologize for the inconvenience. Your order should arrive within the next 2 days."
+        },
+        {
+            "role": "user",
+            "content": "Next 2 days? That's unacceptable! I need my coffee now!"
+        },
+        {
+            "role": "assistant",
+            "content": "I truly apologize, George. To make up for this delay, I can offer you a 20% discount on your next purchase. Will that be acceptable?"
+        },
+        {
+            "role": "user",
+            "content": "A discount? What good is that if I can't get my coffee when I need it? I want a refund on the shipping cost!"
+        },
+        {
+            "role": "assistant",
+            "content": "I can understand your frustration, George. I will process a refund for the shipping cost immediately and ensure your package is prioritized for delivery. You should receive the refund confirmation shortly."
+        },
+        {
+            "role": "user",
+            "content": "Fine. This better not happen again."
+        },
+        {
+            "role": "assistant",
+            "content": "I assure you, George, we will do everything we can to prevent this from happening in the future. Thank you for your patience, and again, I apologize for the inconvenience."
+        }
+    ],
+    "agent_id": 3,
+    "session_id": "4650abc7-6656-4d6d-bd80-2c7c58a35377",
+    "topic": "delivery",
+    "product": "Nespresso Coffee Capsule",
+    "sentiment": "angry"
+}

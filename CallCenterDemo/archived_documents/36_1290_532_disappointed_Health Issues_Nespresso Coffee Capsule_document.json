@@ -1,0 +1,62 @@
+{
+    "customer_id": 13,
+    "messages": [
+        {
+            "role": "assistant",
+            "content": "Hello, thank you for calling Nestl\u00e9 customer service. My name is Betrace. May I know your name, please?"
+        },
+        {
+            "role": "user",
+            "content": "Hi Betrace, this is Hannah."
+        },
+        {
+            "role": "assistant",
+            "content": "Nice to meet you, Hannah. How can I assist you today?"
+        },
+        {
+            "role": "user",
+            "content": "I'm really disappointed with the Nespresso Coffee Capsules I bought recently. I've been feeling unwell after drinking the coffee."
+        },
+        {
+            "role": "assistant",
+            "content": "I'm very sorry to hear that, Hannah. Could you please describe the health issues you've experienced?"
+        },
+        {
+            "role": "user",
+            "content": "Sure. I've had stomach aches and nausea after drinking the coffee. I'm concerned it might be something in the capsules."
+        },
+        {
+            "role": "assistant",
+            "content": "That sounds very concerning. We take such issues seriously. Have you tried any other food or beverages recently that might have caused this?"
+        },
+        {
+            "role": "user",
+            "content": "No, I haven't changed anything else in my diet. It's only after drinking the Nespresso coffee."
+        },
+        {
+            "role": "assistant",
+            "content": "Thank you for providing this information, Hannah. I will report this to our quality control team immediately. Could you please provide me with the batch number and expiration date on the capsule packaging?"
+        },
+        {
+            "role": "user",
+            "content": "Sure, the batch number is A12345 and the expiration date is 05/2024."
+        },
+        {
+            "role": "assistant",
+            "content": "Thank you, Hannah. We will investigate this issue thoroughly. In the meantime, I recommend discontinuing use of the capsules. Is there anything else I can assist you with?"
+        },
+        {
+            "role": "user",
+            "content": "No, that's all. I just hope this gets resolved quickly. I'm really disappointed."
+        },
+        {
+            "role": "assistant",
+            "content": "I completely understand, Hannah. We will work on this as a priority. Thank you for bringing it to our attention and please accept our apologies for the inconvenience."
+        }
+    ],
+    "agent_id": 4,
+    "session_id": "93e88711-805a-4ae3-beb4-5a35e1559717",
+    "topic": "Health Issues",
+    "product": "Nespresso Coffee Capsule",
+    "sentiment": "disappointed"
+}

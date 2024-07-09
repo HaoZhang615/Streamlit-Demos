@@ -1,0 +1,62 @@
+{
+    "customer_id": 15,
+    "messages": [
+        {
+            "role": "assistant",
+            "content": "Thank you for calling Nestl\u00e9 customer service. My name is Curie. May I know your name, please?"
+        },
+        {
+            "role": "user",
+            "content": "Hi Curie, my name is Julia."
+        },
+        {
+            "role": "assistant",
+            "content": "Nice to meet you, Julia! How can I assist you today?"
+        },
+        {
+            "role": "user",
+            "content": "I recently bought a Nespresso Coffee Machine and I have a few questions about its features."
+        },
+        {
+            "role": "assistant",
+            "content": "Of course, I'd be happy to help with that! What specific features or functions would you like to know more about?"
+        },
+        {
+            "role": "user",
+            "content": "I'm particularly interested in understanding how to use the milk frother and the different coffee settings."
+        },
+        {
+            "role": "assistant",
+            "content": "Great questions, Julia! The milk frother is very easy to use. Simply fill it with milk up to the indicated level, and press the button to start frothing. As for the coffee settings, you can choose from a variety of options including espresso, lungo, and more. Each setting adjusts the water volume to give you the perfect cup."
+        },
+        {
+            "role": "user",
+            "content": "That sounds fantastic! Is there a way to customize my coffee preferences?"
+        },
+        {
+            "role": "assistant",
+            "content": "Yes, you can customize your coffee preferences by adjusting the water volume and temperature settings. This allows you to tailor your coffee exactly to your liking. The user manual provides detailed instructions on how to do this."
+        },
+        {
+            "role": "user",
+            "content": "I see. Thank you so much for the information, Curie. You've been very helpful!"
+        },
+        {
+            "role": "assistant",
+            "content": "You're very welcome, Julia! If you have any more questions or need further assistance, feel free to reach out. Enjoy your Nespresso Coffee Machine!"
+        },
+        {
+            "role": "user",
+            "content": "Will do! Thanks again, Curie. Have a great day!"
+        },
+        {
+            "role": "assistant",
+            "content": "You too, Julia! Take care!"
+        }
+    ],
+    "agent_id": 3,
+    "session_id": "cff1f9b3-ddb6-47d6-baba-f057285b8378",
+    "topic": "assistance",
+    "product": "Nespresso Coffee Machine",
+    "sentiment": "positive"
+}

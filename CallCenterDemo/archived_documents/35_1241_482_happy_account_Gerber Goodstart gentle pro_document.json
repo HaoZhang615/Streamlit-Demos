@@ -1,0 +1,58 @@
+{
+    "customer_id": 13,
+    "messages": [
+        {
+            "role": "assistant",
+            "content": "Thank you for calling Nestl\u00e9 customer service. My name is Davinci. May I know your name, please?"
+        },
+        {
+            "role": "user",
+            "content": "Hi Davinci, my name is Ian."
+        },
+        {
+            "role": "assistant",
+            "content": "Hi Ian, it's great to speak with you today. How can I assist you with your account?"
+        },
+        {
+            "role": "user",
+            "content": "I'm interested in learning more about the Gerber Goodstart Gentle Pro product. Can you help me with that?"
+        },
+        {
+            "role": "assistant",
+            "content": "Of course, Ian! Gerber Goodstart Gentle Pro is designed to be gentle on your baby's tummy. It includes probiotics and is inspired by breastmilk. Do you have any specific questions about the product?"
+        },
+        {
+            "role": "user",
+            "content": "That sounds great! I'm wondering if there are any special offers or discounts available for this product on my account?"
+        },
+        {
+            "role": "assistant",
+            "content": "Let me check that for you, Ian. Please hold on for a moment."
+        },
+        {
+            "role": "assistant",
+            "content": "Thank you for waiting, Ian. I've checked your account, and it looks like there is a 10% discount available on your next purchase of Gerber Goodstart Gentle Pro."
+        },
+        {
+            "role": "user",
+            "content": "That's awesome! How can I apply this discount to my order?"
+        },
+        {
+            "role": "assistant",
+            "content": "You can apply the discount at the checkout page by entering the promo code that I'll send to your registered email address. Is there anything else I can assist you with today?"
+        },
+        {
+            "role": "user",
+            "content": "No, that's all for now. Thanks a lot, Davinci! You've been very helpful."
+        },
+        {
+            "role": "assistant",
+            "content": "You're welcome, Ian! Have a great day!"
+        }
+    ],
+    "agent_id": 4,
+    "session_id": "a2a1fb47-7d55-4a03-9ccd-c8001174e6a2",
+    "topic": "account",
+    "product": "Gerber Goodstart gentle pro",
+    "sentiment": "happy"
+}

@@ -1,0 +1,66 @@
+{
+    "customer_id": 17,
+    "messages": [
+        {
+            "role": "assistant",
+            "content": "Thank you for calling Nestl\u00e9 customer service. This is Curie. May I have your name, please?"
+        },
+        {
+            "role": "user",
+            "content": "Hi Curie, my name is Paula."
+        },
+        {
+            "role": "assistant",
+            "content": "Nice to meet you, Paula. How can I assist you today?"
+        },
+        {
+            "role": "user",
+            "content": "I have some questions about the Gerber Goodstart Gentle Pro formula."
+        },
+        {
+            "role": "assistant",
+            "content": "Of course, I'd be happy to help with that. What would you like to know?"
+        },
+        {
+            "role": "user",
+            "content": "Well, my baby has been a bit fussy lately, and I'm not sure if this formula is the right choice. Can you provide some guidance?"
+        },
+        {
+            "role": "assistant",
+            "content": "I understand your concern, Paula. The Gerber Goodstart Gentle Pro is designed to be gentle on tiny tummies and can help with fussiness due to its easy-to-digest proteins. Have you noticed any specific issues since starting this formula?"
+        },
+        {
+            "role": "user",
+            "content": "Mostly just the fussiness and some occasional spit-up. I'm not sure if I should switch to a different formula or give this one more time."
+        },
+        {
+            "role": "assistant",
+            "content": "It's quite common for babies to experience some fussiness and spit-up as they adjust to a new formula. I would recommend giving it a bit more time, perhaps a week or two, to see if there's any improvement. If the symptoms persist or worsen, it might be a good idea to consult your pediatrician for further advice."
+        },
+        {
+            "role": "user",
+            "content": "Alright, I guess I can try that. But what if it doesn't get better? I'm worried about my baby's comfort."
+        },
+        {
+            "role": "assistant",
+            "content": "Your concern is completely understandable, Paula. If you don't see any improvement after a couple of weeks, please reach out to us again or talk to your pediatrician. We're here to support you and your baby to ensure you find the best solution."
+        },
+        {
+            "role": "user",
+            "content": "Okay, thank you. I appreciate the help, even though I'm still a bit unsure."
+        },
+        {
+            "role": "assistant",
+            "content": "You're very welcome, Paula. It's perfectly normal to feel unsure, and we're here to help you every step of the way. If you have any more questions or need further assistance, please don't hesitate to contact us again."
+        },
+        {
+            "role": "user",
+            "content": "Thanks, Curie. I'll keep that in mind."
+        }
+    ],
+    "agent_id": 3,
+    "session_id": "097834d6-ccf8-4144-9626-b1e474b6f7ef",
+    "topic": "assistance",
+    "product": "Gerber Goodstart gentle pro",
+    "sentiment": "mixed"
+}

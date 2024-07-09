@@ -1,0 +1,62 @@
+{
+    "customer_id": 15,
+    "messages": [
+        {
+            "role": "assistant",
+            "content": "Thank you for calling Nestl\u00e9 customer service. My name is Adam. May I know your name, please?"
+        },
+        {
+            "role": "user",
+            "content": "It's Michael."
+        },
+        {
+            "role": "assistant",
+            "content": "Hi Michael, thank you for reaching out. How can I assist you today?"
+        },
+        {
+            "role": "user",
+            "content": "I'm really upset. I bought a Nespresso Coffee Machine, and it arrived damaged. This is unacceptable!"
+        },
+        {
+            "role": "assistant",
+            "content": "I'm really sorry to hear that, Michael. Could you please describe the damage to the Nespresso Coffee Machine?"
+        },
+        {
+            "role": "user",
+            "content": "The machine has a big dent on the side, and it doesn't even turn on. I can't believe this passed quality control."
+        },
+        {
+            "role": "assistant",
+            "content": "I apologize for the inconvenience, Michael. We take issues like this very seriously. I assure you we will resolve this as quickly as possible. Could you provide me with the serial number of the machine?"
+        },
+        {
+            "role": "user",
+            "content": "The serial number is 98765XYZ. Can you just get this sorted out?"
+        },
+        {
+            "role": "assistant",
+            "content": "Thank you for the information, Michael. I'll initiate the process for a replacement immediately. Our support team will contact you shortly to arrange the next steps. You should receive an email within the next 24 hours."
+        },
+        {
+            "role": "user",
+            "content": "I hope so. This has already taken too much of my time."
+        },
+        {
+            "role": "assistant",
+            "content": "I understand your frustration, Michael. We're here to make sure this is resolved promptly. Is there anything else I can assist you with today?"
+        },
+        {
+            "role": "user",
+            "content": "No, just get it done fast."
+        },
+        {
+            "role": "assistant",
+            "content": "Absolutely, Michael. We'll make sure this is handled quickly. Thank you for your patience."
+        }
+    ],
+    "agent_id": 3,
+    "session_id": "6f3f8467-2190-42b1-9da7-68606888f28f",
+    "topic": "damages",
+    "product": "Nespresso Coffee Machine",
+    "sentiment": "upset"
+}

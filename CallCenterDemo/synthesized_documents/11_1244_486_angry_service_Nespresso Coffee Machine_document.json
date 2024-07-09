@@ -1,0 +1,58 @@
+{
+    "customer_id": 18,
+    "messages": [
+        {
+            "role": "assistant",
+            "content": "Thank you for calling Nestl\u00e9 customer service. My name is Curie. May I know your name, please?"
+        },
+        {
+            "role": "user",
+            "content": "This is Quinn. I'm really frustrated right now!"
+        },
+        {
+            "role": "assistant",
+            "content": "I'm sorry to hear that, Quinn. Can you please tell me what's been troubling you?"
+        },
+        {
+            "role": "user",
+            "content": "It's about your Nespresso Coffee Machine. It stopped working after just a few weeks of use!"
+        },
+        {
+            "role": "assistant",
+            "content": "I understand how frustrating that can be. Let's see what we can do to resolve this. Can you describe the issue you're experiencing with the machine?"
+        },
+        {
+            "role": "user",
+            "content": "The machine won\u2019t even turn on. I\u2019ve tried everything, and nothing works!"
+        },
+        {
+            "role": "assistant",
+            "content": "I'm very sorry for the inconvenience, Quinn. Let me gather a few more details so we can get this sorted out for you. Do you have the serial number of your Nespresso Coffee Machine?"
+        },
+        {
+            "role": "user",
+            "content": "Yes, the serial number is 98765XYZ. Can you fix this quickly?"
+        },
+        {
+            "role": "assistant",
+            "content": "Thank you for providing the serial number. Since your machine is still under warranty, we can arrange a repair or replacement. I'll start the process right away. You should receive an email with the next steps within 24 hours."
+        },
+        {
+            "role": "user",
+            "content": "It better be quick! I'm tired of waiting and dealing with this nonsense."
+        },
+        {
+            "role": "assistant",
+            "content": "I completely understand your frustration, Quinn. We'll make sure to expedite the process for you. If there's anything else you need, please let me know."
+        },
+        {
+            "role": "user",
+            "content": "Just get it done. Thanks."
+        }
+    ],
+    "agent_id": 3,
+    "session_id": "6c7fdbfd-6756-4451-a75e-868c8e206146",
+    "sentiment": "angry",
+    "topic": "service",
+    "product": "Nespresso Coffee Machine"
+}

@@ -1,0 +1,70 @@
+{
+    "customer_id": 13,
+    "messages": [
+        {
+            "role": "assistant",
+            "content": "Thank you for calling Nestl\u00e9 customer service. My name is Adam. May I know your name, please?"
+        },
+        {
+            "role": "user",
+            "content": "This is David. And I'm really frustrated right now."
+        },
+        {
+            "role": "assistant",
+            "content": "I'm sorry to hear that, David. How can I assist you today?"
+        },
+        {
+            "role": "user",
+            "content": "I ordered a bunch of KitKats last week, but the payment seems to have gone through twice. What's going on?"
+        },
+        {
+            "role": "assistant",
+            "content": "I apologize for the inconvenience, David. Let me look into this for you. Could you please provide me with your order number?"
+        },
+        {
+            "role": "user",
+            "content": "The order number is 987654. This is really unacceptable."
+        },
+        {
+            "role": "assistant",
+            "content": "Thank you for providing the order number. I'll check the payment status for you right now. Please hold on for a moment."
+        },
+        {
+            "role": "user",
+            "content": "Fine, but hurry up. I've already wasted enough time on this."
+        },
+        {
+            "role": "assistant",
+            "content": "David, I see that there was indeed a duplicate charge for your KitKat order. I'm very sorry for the mistake. I will process a refund for the duplicate payment immediately."
+        },
+        {
+            "role": "user",
+            "content": "This is just ridiculous. How long will it take to get my money back?"
+        },
+        {
+            "role": "assistant",
+            "content": "The refund should appear in your account within 3-5 business days. Again, I apologize for the inconvenience caused."
+        },
+        {
+            "role": "user",
+            "content": "3-5 days? Unbelievable. This shouldn't have happened in the first place."
+        },
+        {
+            "role": "assistant",
+            "content": "I understand your frustration, David, and I assure you we are taking steps to ensure this doesn't happen again. Is there anything else I can help you with today?"
+        },
+        {
+            "role": "user",
+            "content": "No, just fix this mess."
+        },
+        {
+            "role": "assistant",
+            "content": "We are on it, David. Thank you for your patience. Have a good day."
+        }
+    ],
+    "agent_id": 4,
+    "session_id": "e2fa926d-b6cc-4a3c-a163-33f485815afe",
+    "topic": "payment",
+    "product": "Kitkat",
+    "sentiment": "frustrated"
+}

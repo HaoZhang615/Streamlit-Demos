@@ -1,0 +1,70 @@
+{
+    "customer_id": 15,
+    "messages": [
+        {
+            "role": "assistant",
+            "content": "Thank you for calling Nestl\u00e9 customer support. My name is Emil. May I know your name, please?"
+        },
+        {
+            "role": "user",
+            "content": "Hi Emil, my name is Brian."
+        },
+        {
+            "role": "assistant",
+            "content": "Hello Brian, nice to meet you. How can I assist you today?"
+        },
+        {
+            "role": "user",
+            "content": "Well, I'm really disappointed with the Nespresso Coffee Capsules I bought recently. They don't seem to be working properly with my machine."
+        },
+        {
+            "role": "assistant",
+            "content": "I'm really sorry to hear that, Brian. Let's see how we can resolve this issue for you. Could you please describe exactly what's happening when you try to use the capsules?"
+        },
+        {
+            "role": "user",
+            "content": "When I insert the capsule and start the machine, it either doesn't pierce the capsule properly or it leaks everywhere. It's really frustrating."
+        },
+        {
+            "role": "assistant",
+            "content": "That sounds frustrating indeed, Brian. It could be an issue with the capsules or the machine. Have you tried using a different batch of capsules to see if the problem persists?"
+        },
+        {
+            "role": "user",
+            "content": "Yes, I did. I tried a different batch, but the problem is still there. I'm really fed up at this point."
+        },
+        {
+            "role": "assistant",
+            "content": "I understand your frustration, Brian. Let's try troubleshooting this together. Can you please check if the capsule compartment and the piercing mechanism are clean and free of any obstructions?"
+        },
+        {
+            "role": "user",
+            "content": "I've already checked that, Emil. Everything seems to be clean and in order, but the issue still remains."
+        },
+        {
+            "role": "assistant",
+            "content": "Thank you for checking that, Brian. Since it seems like you've tried all the basic troubleshooting steps, we might need to look into a replacement for your capsules or even the machine. I'll need a few more details to proceed. Can you provide me with the model of your Nespresso machine and the batch number of the capsules?"
+        },
+        {
+            "role": "user",
+            "content": "Sure, the model is Nespresso VertuoPlus, and the batch number on the capsules is 12345XYZ."
+        },
+        {
+            "role": "assistant",
+            "content": "Thank you for providing the details, Brian. I'll initiate a replacement process for the capsules and have our technical team take a look at your machine. You should receive a confirmation email shortly with the next steps."
+        },
+        {
+            "role": "user",
+            "content": "Alright, I hope this gets resolved quickly. Thanks, Emil."
+        },
+        {
+            "role": "assistant",
+            "content": "You're welcome, Brian. We'll do our best to resolve this swiftly. If you have any further questions or issues, feel free to reach out."
+        }
+    ],
+    "agent_id": 3,
+    "session_id": "5f1f94b3-d506-447e-9737-e0d48947b2d3",
+    "topic": "support",
+    "product": "Nespresso Coffee Capsule",
+    "sentiment": "disappointed"
+}

@@ -1,0 +1,58 @@
+{
+    "customer_id": 15,
+    "messages": [
+        {
+            "role": "assistant",
+            "content": "Hi, thank you for calling Nestl\u00e9 customer service. My name is Adam. May I know your name, please?"
+        },
+        {
+            "role": "user",
+            "content": "Hi Adam, my name is Hannah."
+        },
+        {
+            "role": "assistant",
+            "content": "Nice to meet you, Hannah. How can I assist you today?"
+        },
+        {
+            "role": "user",
+            "content": "I'm a bit confused about the nutrition information of KitKat. Could you help me with that?"
+        },
+        {
+            "role": "assistant",
+            "content": "Of course, I'd be happy to help. What specific nutrition information are you looking for about KitKat?"
+        },
+        {
+            "role": "user",
+            "content": "I just want to understand the sugar content and if there are any allergens I should be aware of."
+        },
+        {
+            "role": "assistant",
+            "content": "Sure, Hannah. A standard KitKat bar contains around 21 grams of sugar. As for allergens, KitKat contains milk and soy, and it may also contain traces of peanuts and wheat. Is there anything else you'd like to know?"
+        },
+        {
+            "role": "user",
+            "content": "Hmm, that\u2019s quite a bit of sugar. Does it also contain any artificial ingredients?"
+        },
+        {
+            "role": "assistant",
+            "content": "The classic KitKat bar does not contain any artificial colors or flavors. It\u2019s made with real milk chocolate. Is there anything else you're curious about?"
+        },
+        {
+            "role": "user",
+            "content": "No, I think that covers it. Thank you for clarifying."
+        },
+        {
+            "role": "assistant",
+            "content": "You're welcome, Hannah. If you have any other questions in the future, feel free to reach out. Have a great day!"
+        },
+        {
+            "role": "user",
+            "content": "Thanks, Adam. You too!"
+        }
+    ],
+    "agent_id": 3,
+    "session_id": "bb2c05a6-d958-43e0-b399-23aa8e14cca6",
+    "topic": "Nutrition information",
+    "product": "Kitkat",
+    "sentiment": "confused"
+}

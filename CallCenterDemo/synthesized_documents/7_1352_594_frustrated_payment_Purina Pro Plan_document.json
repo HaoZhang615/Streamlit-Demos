@@ -1,0 +1,66 @@
+{
+    "customer_id": 17,
+    "messages": [
+        {
+            "role": "assistant",
+            "content": "Thank you for calling Nestl\u00e9 customer service. My name is Emil. May I know your name, please?"
+        },
+        {
+            "role": "user",
+            "content": "I'm Tara. Look, I'm really frustrated right now. I need help with a payment issue."
+        },
+        {
+            "role": "assistant",
+            "content": "I'm sorry to hear that you're frustrated, Tara. I'll do my best to help you. Can you please provide more details about the payment issue?"
+        },
+        {
+            "role": "user",
+            "content": "I ordered the Purina Pro Plan for my dog, and the payment went through, but I haven't received any confirmation. What's going on?"
+        },
+        {
+            "role": "assistant",
+            "content": "I understand your concern, Tara. Let me check your order status and payment details. Can you please provide your order number?"
+        },
+        {
+            "role": "user",
+            "content": "I don't have the order number right now. Can't you just look it up with my email or something?"
+        },
+        {
+            "role": "assistant",
+            "content": "Yes, I can look it up using your email address. Could you please provide the email you used for the order?"
+        },
+        {
+            "role": "user",
+            "content": "Sure, it's tara.smith@example.com. Please hurry, this is really annoying."
+        },
+        {
+            "role": "assistant",
+            "content": "Thank you, Tara. I'll check on that right away. Please hold for a moment."
+        },
+        {
+            "role": "assistant",
+            "content": "Thank you for waiting, Tara. It looks like the payment went through, but there was a system delay in sending the confirmation email. You should receive it shortly. I apologize for the inconvenience."
+        },
+        {
+            "role": "user",
+            "content": "Seriously? This is so frustrating. How do I know it won't happen again?"
+        },
+        {
+            "role": "assistant",
+            "content": "I understand your frustration, Tara. We are working to resolve these issues to prevent them from happening in the future. If you encounter any more problems, please don't hesitate to contact us again. Is there anything else I can assist you with today?"
+        },
+        {
+            "role": "user",
+            "content": "No, just make sure I get that confirmation email soon. Thanks."
+        },
+        {
+            "role": "assistant",
+            "content": "You're welcome, Tara. You should receive the email shortly. Thank you for your patience, and have a great day."
+        }
+    ],
+    "agent_id": 3,
+    "session_id": "61639dd4-c7ab-41f6-aa68-30fc3bd12757",
+    "sentiment": "frustrated",
+    "topic": "payment",
+    "product": "Purina Pro Plan"
+}

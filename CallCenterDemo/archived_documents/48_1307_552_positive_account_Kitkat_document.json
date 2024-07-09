@@ -1,0 +1,66 @@
+{
+    "customer_id": 15,
+    "messages": [
+        {
+            "role": "assistant",
+            "content": "Thank you for calling Nestl\u00e9 customer service. My name is Emil. May I know your name, please?"
+        },
+        {
+            "role": "user",
+            "content": "Hi Emil, my name is Tara."
+        },
+        {
+            "role": "assistant",
+            "content": "Nice to meet you, Tara! How can I assist you today?"
+        },
+        {
+            "role": "user",
+            "content": "I have a question about my account and the KitKat products I recently purchased."
+        },
+        {
+            "role": "assistant",
+            "content": "Of course, Tara. I would be happy to help you with that. What specifically would you like to know regarding your account and KitKat products?"
+        },
+        {
+            "role": "user",
+            "content": "I noticed a charge on my account for KitKat items that I didn\u2019t order. Can you help me understand this charge?"
+        },
+        {
+            "role": "assistant",
+            "content": "I\u2019m sorry to hear about the unexpected charge, Tara. Let me pull up your account details and take a look for you. Can you please provide me with your account number or email address associated with the account?"
+        },
+        {
+            "role": "user",
+            "content": "Sure, my account number is 987654321."
+        },
+        {
+            "role": "assistant",
+            "content": "Thank you, Tara. I\u2019ve found your account. It looks like there was a recent order for a variety pack of KitKat that was placed. Did you perhaps authorize someone else to use your account?"
+        },
+        {
+            "role": "user",
+            "content": "Oh, yes! I completely forgot that my sister used my account to buy some KitKat. Thank you for clarifying that, Emil."
+        },
+        {
+            "role": "assistant",
+            "content": "No problem at all, Tara. I\u2019m glad we could clear that up. Is there anything else I can assist you with today?"
+        },
+        {
+            "role": "user",
+            "content": "No, that\u2019s all I needed. Thanks for your help, Emil!"
+        },
+        {
+            "role": "assistant",
+            "content": "You\u2019re welcome, Tara! Have a great day and enjoy your KitKats!"
+        },
+        {
+            "role": "user",
+            "content": "Will do, thanks again!"
+        }
+    ],
+    "agent_id": 3,
+    "session_id": "55560de9-e8d5-4597-9cf1-50bbcfbc489b",
+    "topic": "account",
+    "product": "Kitkat",
+    "sentiment": "positive"
+}

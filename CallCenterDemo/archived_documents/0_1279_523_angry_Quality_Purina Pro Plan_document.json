@@ -1,0 +1,62 @@
+{
+    "customer_id": 17,
+    "messages": [
+        {
+            "role": "assistant",
+            "content": "Thank you for contacting Nestl\u00e9 customer service. My name is Adam. May I have your name please?"
+        },
+        {
+            "role": "user",
+            "content": "My name is Chloe. And I'm really frustrated right now."
+        },
+        {
+            "role": "assistant",
+            "content": "I'm sorry to hear that, Chloe. How can I assist you today?"
+        },
+        {
+            "role": "user",
+            "content": "I've been having issues with the quality of your Purina Pro Plan. The last few bags I've bought have been terrible."
+        },
+        {
+            "role": "assistant",
+            "content": "I apologize for the inconvenience, Chloe. Could you please describe the issues you've been experiencing?"
+        },
+        {
+            "role": "user",
+            "content": "The kibble is inconsistent in size, and my dog refuses to eat it. This has never happened before."
+        },
+        {
+            "role": "assistant",
+            "content": "That sounds very frustrating. We take quality issues seriously. Could you provide me with the batch number and the store where you purchased the product?"
+        },
+        {
+            "role": "user",
+            "content": "I bought it from PetSmart, and the batch number is 5678XYZ. I just want some consistency in what I'm feeding my dog!"
+        },
+        {
+            "role": "assistant",
+            "content": "Thank you for the information, Chloe. I'll escalate this issue to our quality control team immediately. We can also offer you a replacement or a refund. Which would you prefer?"
+        },
+        {
+            "role": "user",
+            "content": "I'd prefer a refund. I've already switched to another brand."
+        },
+        {
+            "role": "assistant",
+            "content": "I understand, Chloe. I'll process the refund for you. You should see it reflected in your account within 5-7 business days. Is there anything else I can help you with?"
+        },
+        {
+            "role": "user",
+            "content": "No, that's all. Just make sure this doesn\u2019t happen again."
+        },
+        {
+            "role": "assistant",
+            "content": "I assure you, Chloe, we are taking your feedback seriously. Thank you for bringing this to our attention."
+        }
+    ],
+    "agent_id": 4,
+    "session_id": "a969ae77-7434-4527-b86d-7435eedf6e6e",
+    "topic": "Quality",
+    "product": "Purina Pro Plan",
+    "sentiment": "angry"
+}

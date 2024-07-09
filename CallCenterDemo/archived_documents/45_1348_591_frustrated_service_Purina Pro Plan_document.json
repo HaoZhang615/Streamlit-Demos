@@ -1,0 +1,62 @@
+{
+    "customer_id": 14,
+    "messages": [
+        {
+            "role": "assistant",
+            "content": "Thank you for calling Nestl\u00e9 customer service. My name is Adam. May I have your name, please?"
+        },
+        {
+            "role": "user",
+            "content": "It's Zachary. Look, I'm really frustrated with your Purina Pro Plan product."
+        },
+        {
+            "role": "assistant",
+            "content": "I\u2019m sorry to hear that, Zachary. Could you please tell me more about the issue you\u2019re experiencing?"
+        },
+        {
+            "role": "user",
+            "content": "The quality of the product has gone downhill. My dog used to love it, but now he won't even touch it."
+        },
+        {
+            "role": "assistant",
+            "content": "I understand your frustration, Zachary. We certainly want to ensure our products meet your expectations. Have you noticed any specific changes in the product?"
+        },
+        {
+            "role": "user",
+            "content": "Yes, it seems like the kibble size and texture are different. It\u2019s like you\u2019ve changed the formula without telling anyone."
+        },
+        {
+            "role": "assistant",
+            "content": "I apologize for any inconvenience this has caused. Let me check if there have been any recent changes to the formula or production process of Purina Pro Plan. Could you please provide me with the batch number and expiration date from the packaging?"
+        },
+        {
+            "role": "user",
+            "content": "Give me a moment... Alright, the batch number is 54789 and the expiration date is December 2024."
+        },
+        {
+            "role": "assistant",
+            "content": "Thank you for the details, Zachary. I will escalate this issue to our quality assurance team for further investigation. In the meantime, may I offer you a replacement or a refund for the product?"
+        },
+        {
+            "role": "user",
+            "content": "A refund would be appreciated. But please, fix this issue. I don\u2019t want to have to switch brands."
+        },
+        {
+            "role": "assistant",
+            "content": "I understand, Zachary. I will process your refund right away and ensure that your feedback is passed on to the relevant department. You should see the refund reflected in your account within 5-7 business days. Is there anything else I can assist you with today?"
+        },
+        {
+            "role": "user",
+            "content": "Just make sure it gets sorted. Thanks."
+        },
+        {
+            "role": "assistant",
+            "content": "Absolutely, Zachary. Thank you for bringing this to our attention. Have a good day."
+        }
+    ],
+    "agent_id": 2,
+    "session_id": "681462f5-bfcf-4d87-a03c-8e313263c0e1",
+    "topic": "service",
+    "product": "Purina Pro Plan",
+    "sentiment": "frustrated"
+}

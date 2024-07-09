@@ -1,0 +1,58 @@
+{
+    "customer_id": 17,
+    "messages": [
+        {
+            "role": "assistant",
+            "content": "Thank you for calling Nestl\u00e9 customer service. My name is Fred. May I know your name, please?"
+        },
+        {
+            "role": "user",
+            "content": "Hi Fred, my name is Nicole."
+        },
+        {
+            "role": "assistant",
+            "content": "Hi Nicole, how can I assist you today?"
+        },
+        {
+            "role": "user",
+            "content": "I'm considering using the Gerber Goodstart Gentle Pro for my baby, but I am concerned about potential health issues. Can you provide more information?"
+        },
+        {
+            "role": "assistant",
+            "content": "Of course, Nicole. The Gerber Goodstart Gentle Pro is designed to be gentle on your baby's tummy. It contains a blend of DHA, prebiotics, and probiotics to support digestive health and brain development. Do you have any specific concerns?"
+        },
+        {
+            "role": "user",
+            "content": "I read that some formulas can cause allergies or digestive problems. Has there been any feedback from other parents?"
+        },
+        {
+            "role": "assistant",
+            "content": "I understand your concerns. Gerber Goodstart Gentle Pro is made with high-quality ingredients to minimize the risk of allergies and digestive issues. Many parents have reported positive experiences with this formula, noting improvements in their babies' digestion and overall comfort."
+        },
+        {
+            "role": "user",
+            "content": "That's reassuring to hear. Are there any side effects I should watch out for?"
+        },
+        {
+            "role": "assistant",
+            "content": "Most babies tolerate Gerber Goodstart Gentle Pro very well. However, as with any formula, some babies might experience mild digestive changes when switching, such as gas or changes in stool patterns. If you notice any severe reactions, it's best to consult with your pediatrician."
+        },
+        {
+            "role": "user",
+            "content": "Thank you, Fred. That information really helps. I feel more confident about trying this formula for my baby."
+        },
+        {
+            "role": "assistant",
+            "content": "You're very welcome, Nicole. I'm glad I could help. If you have any more questions or need further assistance, feel free to reach out. Have a great day!"
+        },
+        {
+            "role": "user",
+            "content": "Thanks, Fred. You too!"
+        }
+    ],
+    "agent_id": 3,
+    "session_id": "fb482980-8636-40c3-a615-4b56d5437ed1",
+    "sentiment": "content",
+    "topic": "Health Issues",
+    "product": "Gerber Goodstart gentle pro"
+}

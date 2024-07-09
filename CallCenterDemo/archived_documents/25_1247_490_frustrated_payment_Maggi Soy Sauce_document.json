@@ -1,0 +1,62 @@
+{
+    "customer_id": 17,
+    "messages": [
+        {
+            "role": "assistant",
+            "content": "Thank you for calling Nestl\u00e9 customer service. My name is Davinci. May I know your name, please?"
+        },
+        {
+            "role": "user",
+            "content": "It's Chloe. Look, I'm really frustrated right now."
+        },
+        {
+            "role": "assistant",
+            "content": "I'm sorry to hear that, Chloe. How can I assist you today?"
+        },
+        {
+            "role": "user",
+            "content": "I need to talk about a payment issue. I bought Maggi Soy Sauce, and the payment went through twice. This is ridiculous!"
+        },
+        {
+            "role": "assistant",
+            "content": "I apologize for the inconvenience, Chloe. Let me look into this for you. Could you please provide me with your order number?"
+        },
+        {
+            "role": "user",
+            "content": "The order number is 123456. I can't believe I have to deal with this. Why can't things just work?"
+        },
+        {
+            "role": "assistant",
+            "content": "I understand your frustration, Chloe. I see the duplicate charge here. I will initiate the refund process for the extra payment immediately."
+        },
+        {
+            "role": "user",
+            "content": "How long will it take to get my money back? This whole thing is just wasting my time."
+        },
+        {
+            "role": "assistant",
+            "content": "The refund process typically takes 3-5 business days. I assure you, I'll expedite it as much as possible."
+        },
+        {
+            "role": "user",
+            "content": "Fine. Just make sure it gets done quickly. I don't want to deal with this again."
+        },
+        {
+            "role": "assistant",
+            "content": "Absolutely, Chloe. Is there anything else I can help you with today?"
+        },
+        {
+            "role": "user",
+            "content": "No, just fix this mess. Thanks."
+        },
+        {
+            "role": "assistant",
+            "content": "We will get this sorted as quickly as possible. Thank you for your patience, Chloe."
+        }
+    ],
+    "agent_id": 4,
+    "session_id": "a99fdbfd-5f9f-448f-93d9-4bfebab6fcfc",
+    "topic": "payment",
+    "product": "Maggi Soy Sauce",
+    "sentiment": "frustrated"
+}

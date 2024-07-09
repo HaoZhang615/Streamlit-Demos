@@ -1,0 +1,82 @@
+{
+    "customer_id": 15,
+    "messages": [
+        {
+            "role": "assistant",
+            "content": "Thank you for calling Nestl\u00e9 customer service. My name is Adam. May I know your name, please?"
+        },
+        {
+            "role": "user",
+            "content": "My name is Nicole."
+        },
+        {
+            "role": "assistant",
+            "content": "Hi Nicole, how can I assist you today?"
+        },
+        {
+            "role": "user",
+            "content": "I'm really upset right now. I have been using Purina Pro Plan for my dog, and he has been having severe health issues."
+        },
+        {
+            "role": "assistant",
+            "content": "I'm sorry to hear that, Nicole. Can you please provide more details about the health issues your dog is experiencing?"
+        },
+        {
+            "role": "user",
+            "content": "He's been vomiting and having diarrhea constantly. It's been a nightmare."
+        },
+        {
+            "role": "assistant",
+            "content": "That sounds very concerning. Have you taken your dog to a vet to get a professional opinion?"
+        },
+        {
+            "role": "user",
+            "content": "Yes, the vet said it might be due to the food. That's why I'm calling you."
+        },
+        {
+            "role": "assistant",
+            "content": "I understand. We take such matters very seriously. Can you provide me with the batch number of the Purina Pro Plan product you have been using?"
+        },
+        {
+            "role": "user",
+            "content": "I don't have it with me right now, but I can get it later."
+        },
+        {
+            "role": "assistant",
+            "content": "That's okay, Nicole. When you have the batch number, please contact us again so we can investigate this issue thoroughly. In the meantime, I recommend discontinuing the use of that product."
+        },
+        {
+            "role": "user",
+            "content": "I already stopped giving it to him. What are you going to do about this?"
+        },
+        {
+            "role": "assistant",
+            "content": "We will definitely look into the batch and see if there have been any reported issues. Additionally, we can offer you a refund or a replacement product. What would you prefer?"
+        },
+        {
+            "role": "user",
+            "content": "A refund would be good. I just want to make sure other dogs aren't getting sick from this."
+        },
+        {
+            "role": "assistant",
+            "content": "I understand your concern, Nicole. We will initiate the refund process for you. Please keep an eye on your email for further instructions and updates."
+        },
+        {
+            "role": "user",
+            "content": "Alright, I'll look out for it. Thank you."
+        },
+        {
+            "role": "assistant",
+            "content": "You're welcome, Nicole. We're here to help, and we appreciate you bringing this to our attention. If you need anything else, please don't hesitate to contact us."
+        },
+        {
+            "role": "user",
+            "content": "Okay, thanks."
+        }
+    ],
+    "agent_id": 4,
+    "session_id": "85129445-d2e4-4f7e-9174-c27e693db119",
+    "topic": "Health Issues",
+    "product": "Purina Pro Plan",
+    "sentiment": "upset"
+}

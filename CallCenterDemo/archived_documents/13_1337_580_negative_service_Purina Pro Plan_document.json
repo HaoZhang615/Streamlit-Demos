@@ -1,0 +1,62 @@
+{
+    "customer_id": 15,
+    "messages": [
+        {
+            "role": "assistant",
+            "content": "Thank you for calling Nestl\u00e9 customer service. My name is Davinci. May I have your name, please?"
+        },
+        {
+            "role": "user",
+            "content": "Hi Davinci, this is Hannah."
+        },
+        {
+            "role": "assistant",
+            "content": "Hi Hannah, thank you for providing your name. How can I assist you today?"
+        },
+        {
+            "role": "user",
+            "content": "I am really frustrated with your service. I've been trying to get some help with Purina Pro Plan, but no one seems to care."
+        },
+        {
+            "role": "assistant",
+            "content": "I'm sorry to hear that, Hannah. I assure you I'm here to help. Can you tell me more about the issue you're experiencing with Purina Pro Plan?"
+        },
+        {
+            "role": "user",
+            "content": "The product quality has really gone down. My dog has been having issues ever since we started this new batch. I need this resolved quickly."
+        },
+        {
+            "role": "assistant",
+            "content": "I understand your concern, Hannah. Let's get to the bottom of this. Could you please provide me with the batch number and the specific issues your dog is experiencing?"
+        },
+        {
+            "role": "user",
+            "content": "The batch number is 67890XYZ. My dog has been having stomach problems and seems to be losing interest in the food."
+        },
+        {
+            "role": "assistant",
+            "content": "Thank you for providing the details, Hannah. I will escalate this issue to our quality control team immediately. In the meantime, I would recommend discontinuing use of this batch. We can arrange for a replacement or a refund. Which would you prefer?"
+        },
+        {
+            "role": "user",
+            "content": "I want a refund. I've already switched to a different brand because of this problem."
+        },
+        {
+            "role": "assistant",
+            "content": "I understand, Hannah. I'll process your refund right away. You should see the refund in your account within 7-10 business days. Is there anything else I can assist you with?"
+        },
+        {
+            "role": "user",
+            "content": "No, just make sure the refund is processed quickly. I've had enough of this."
+        },
+        {
+            "role": "assistant",
+            "content": "I assure you it will be handled promptly. Thank you for bringing this to our attention, Hannah. We appreciate your feedback and apologize for the inconvenience."
+        }
+    ],
+    "agent_id": 3,
+    "session_id": "2e2c9902-610b-432d-b3bb-0b8557857375",
+    "topic": "service",
+    "product": "Purina Pro Plan",
+    "sentiment": "negative"
+}

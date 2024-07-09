@@ -1,0 +1,62 @@
+{
+    "customer_id": 13,
+    "messages": [
+        {
+            "role": "assistant",
+            "content": "Thank you for calling Nestl\u00e9 customer service. My name is Davinci. How can I assist you today?"
+        },
+        {
+            "role": "user",
+            "content": "Hi, I'm Julia. I'm really confused about a recent bill I received for Nespresso Coffee Capsules."
+        },
+        {
+            "role": "assistant",
+            "content": "Hi Julia, thank you for providing your name. I\u2019m here to help. Could you please provide more details about the confusion with your bill?"
+        },
+        {
+            "role": "user",
+            "content": "Sure, I received a bill that seems much higher than usual, but I don't understand why. I only ordered my regular Nespresso Coffee Capsules."
+        },
+        {
+            "role": "assistant",
+            "content": "I understand, Julia. Let me pull up your account details to review your recent orders and billing. Please hold on for a moment."
+        },
+        {
+            "role": "user",
+            "content": "Okay, thank you."
+        },
+        {
+            "role": "assistant",
+            "content": "Thank you for waiting, Julia. I see that there was an additional charge for expedited shipping on your last order. Does that sound familiar to you?"
+        },
+        {
+            "role": "user",
+            "content": "No, I didn't choose expedited shipping. I always select standard shipping."
+        },
+        {
+            "role": "assistant",
+            "content": "I see. It appears that there might have been an error. Let me go ahead and correct this for you. I will remove the expedited shipping charge from your bill. You should see the adjustment reflected in your account within the next 24 hours."
+        },
+        {
+            "role": "user",
+            "content": "Thank you. I appreciate your help. I was really worried there for a moment."
+        },
+        {
+            "role": "assistant",
+            "content": "You\u2019re welcome, Julia. Is there anything else I can assist you with regarding your Nespresso Coffee Capsules or any other concerns?"
+        },
+        {
+            "role": "user",
+            "content": "No, that's all for now. Thanks again!"
+        },
+        {
+            "role": "assistant",
+            "content": "My pleasure, Julia. Have a great day!"
+        }
+    ],
+    "agent_id": 4,
+    "session_id": "f2c9a7d7-514a-4313-9ef7-d3374996fb87",
+    "topic": "billing",
+    "product": "Nespresso Coffee Capsule",
+    "sentiment": "confused"
+}

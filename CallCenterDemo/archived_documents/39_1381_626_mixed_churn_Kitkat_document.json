@@ -1,0 +1,70 @@
+{
+    "customer_id": 19,
+    "messages": [
+        {
+            "role": "assistant",
+            "content": "Hello, thank you for calling Nestl\u00e9 customer service. My name is Curie. May I know your name, please?"
+        },
+        {
+            "role": "user",
+            "content": "Hi Curie, I'm Quinn."
+        },
+        {
+            "role": "assistant",
+            "content": "Nice to meet you, Quinn. How can I assist you today?"
+        },
+        {
+            "role": "user",
+            "content": "Well, I wanted to talk about KitKat. I've been a loyal customer for years, but I'm considering switching to another brand."
+        },
+        {
+            "role": "assistant",
+            "content": "I'm sorry to hear that you're thinking of switching, Quinn. Could you please share more about what's causing you to consider this change?"
+        },
+        {
+            "role": "user",
+            "content": "It's just that the quality seems to have declined recently, and the price has gone up. It's really frustrating."
+        },
+        {
+            "role": "assistant",
+            "content": "I understand your concerns, Quinn. We strive to provide the best quality at a fair price. Can you tell me more specifically what issues you've noticed with the quality?"
+        },
+        {
+            "role": "user",
+            "content": "The taste isn't as rich as it used to be, and the texture feels different. It's like the ingredients have changed."
+        },
+        {
+            "role": "assistant",
+            "content": "Thank you for your feedback, Quinn. I'll certainly pass this information along to our quality control team. We value our loyal customers and want to ensure you're satisfied with our products."
+        },
+        {
+            "role": "user",
+            "content": "I hope so. It's just disappointing since I've always enjoyed KitKat. I'm not sure it's worth sticking around if things don't improve."
+        },
+        {
+            "role": "assistant",
+            "content": "I understand, Quinn. We appreciate your loyalty and would hate to see you go. As a gesture of goodwill, I'd like to offer you a discount on your next purchase. Would that help?"
+        },
+        {
+            "role": "user",
+            "content": "That might help, but only if the quality improves. I'll give it one more try."
+        },
+        {
+            "role": "assistant",
+            "content": "Thank you, Quinn. We truly appreciate your continued support. I'll make sure to send you the discount code via email shortly. Please let us know if you have any other concerns or need further assistance."
+        },
+        {
+            "role": "user",
+            "content": "Alright, I'll keep an eye out for the email. Thanks, Curie."
+        },
+        {
+            "role": "assistant",
+            "content": "You're welcome, Quinn. Have a great day!"
+        }
+    ],
+    "agent_id": 3,
+    "session_id": "f8e9d016-e349-4f37-a336-7126535edfc7",
+    "topic": "churn",
+    "product": "Kitkat",
+    "sentiment": "mixed"
+}

@@ -1,0 +1,86 @@
+{
+    "customer_id": 17,
+    "messages": [
+        {
+            "role": "assistant",
+            "content": "Thank you for calling Nestl\u00e9 customer service. My name is Betrace. May I have your name, please?"
+        },
+        {
+            "role": "user",
+            "content": "Hi Betrace, my name is Emma."
+        },
+        {
+            "role": "assistant",
+            "content": "Nice to meet you, Emma. How can I assist you today?"
+        },
+        {
+            "role": "user",
+            "content": "I'm really disappointed with the Purina Pro Plan product. My dog has been having health issues since I started feeding it to him. Can you help me understand what's going on?"
+        },
+        {
+            "role": "assistant",
+            "content": "I'm very sorry to hear that, Emma. Can you please provide me with more details about the health issues your dog is experiencing?"
+        },
+        {
+            "role": "user",
+            "content": "He's been vomiting and has had diarrhea ever since we switched to Purina Pro Plan. I thought it was supposed to be a high-quality product."
+        },
+        {
+            "role": "assistant",
+            "content": "I understand your concern, Emma. Can you tell me which specific variety of Purina Pro Plan you are using?"
+        },
+        {
+            "role": "user",
+            "content": "I bought the Purina Pro Plan Savor Adult Shredded Blend Chicken & Rice Formula."
+        },
+        {
+            "role": "assistant",
+            "content": "Thank you for providing that information. Have you consulted with your veterinarian about these health issues?"
+        },
+        {
+            "role": "user",
+            "content": "Yes, I have. The vet suggested it might be the food causing these problems. That's why I'm so frustrated."
+        },
+        {
+            "role": "assistant",
+            "content": "I understand your frustration, Emma. We take such concerns very seriously. I can report this issue to our quality assurance team and see what can be done. In the meantime, I would recommend discontinuing the use of this product and following your vet's advice."
+        },
+        {
+            "role": "user",
+            "content": "I've already stopped feeding it to him, but I really need to know if there's something wrong with this product."
+        },
+        {
+            "role": "assistant",
+            "content": "I assure you that we will investigate this issue thoroughly. Could you please provide me with the batch number and expiration date from the bag?"
+        },
+        {
+            "role": "user",
+            "content": "Sure, the batch number is 123456 and the expiration date is June 2024."
+        },
+        {
+            "role": "assistant",
+            "content": "Thank you, Emma. I will escalate this issue to our quality control team immediately. You should hear back from us within the next few days. Is there anything else I can assist you with today?"
+        },
+        {
+            "role": "user",
+            "content": "No, that's all for now. I just hope this gets resolved quickly."
+        },
+        {
+            "role": "assistant",
+            "content": "We will do our best, Emma. Thank you for bringing this to our attention, and we appreciate your patience."
+        },
+        {
+            "role": "user",
+            "content": "Alright, thank you."
+        },
+        {
+            "role": "assistant",
+            "content": "You're welcome, Emma. Have a good day."
+        }
+    ],
+    "agent_id": 3,
+    "session_id": "e4f73bee-047f-41ad-b6f6-b01ba7340d02",
+    "sentiment": "disappointed",
+    "topic": "Health Issues",
+    "product": "Purina Pro Plan"
+}

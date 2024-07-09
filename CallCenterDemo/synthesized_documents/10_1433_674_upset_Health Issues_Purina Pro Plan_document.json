@@ -1,0 +1,78 @@
+{
+    "customer_id": 15,
+    "messages": [
+        {
+            "role": "assistant",
+            "content": "Thank you for calling Nestl\u00e9 customer service. My name is Emil. May I know your name, please?"
+        },
+        {
+            "role": "user",
+            "content": "My name is Victor. Look, I'm really upset right now."
+        },
+        {
+            "role": "assistant",
+            "content": "I understand, Victor. I'm here to help. Can you please tell me what the issue is?"
+        },
+        {
+            "role": "user",
+            "content": "It's about your Purina Pro Plan. My dog has been sick ever since I started feeding it to him."
+        },
+        {
+            "role": "assistant",
+            "content": "I'm very sorry to hear that, Victor. Can you provide more details about the health issues your dog is experiencing?"
+        },
+        {
+            "role": "user",
+            "content": "He's been vomiting and has severe diarrhea. This has been going on for a week now."
+        },
+        {
+            "role": "assistant",
+            "content": "That sounds very distressing. Have you taken your dog to the vet?"
+        },
+        {
+            "role": "user",
+            "content": "Yes, I have. The vet suggested it might be the food causing this."
+        },
+        {
+            "role": "assistant",
+            "content": "I'm really sorry to hear that, Victor. We take such issues very seriously. Can you provide me with the batch number and the expiry date of the Purina Pro Plan you purchased?"
+        },
+        {
+            "role": "user",
+            "content": "Sure, the batch number is 123456 and the expiry date is 12/2024."
+        },
+        {
+            "role": "assistant",
+            "content": "Thank you for that information. We will investigate this issue immediately. In the meantime, please stop feeding your dog this product and follow your vet's instructions."
+        },
+        {
+            "role": "user",
+            "content": "I already stopped. What are you going to do about this?"
+        },
+        {
+            "role": "assistant",
+            "content": "We will start an investigation and keep you updated about the progress. In addition, we can offer you a refund or a replacement product. Which would you prefer?"
+        },
+        {
+            "role": "user",
+            "content": "I want a refund. This has been a nightmare."
+        },
+        {
+            "role": "assistant",
+            "content": "I understand, Victor. I will process the refund for you right away. You should see the refund in your account within 5-7 business days. Is there anything else I can assist you with?"
+        },
+        {
+            "role": "user",
+            "content": "No, just make sure this gets sorted out quickly."
+        },
+        {
+            "role": "assistant",
+            "content": "Absolutely, Victor. I will make sure this is handled with urgency. Thank you for bringing this to our attention, and I hope your dog gets well soon."
+        }
+    ],
+    "agent_id": 3,
+    "session_id": "c8ca9208-0d3e-474a-bca9-b3fe78d1f5cf",
+    "sentiment": "upset",
+    "topic": "Health Issues",
+    "product": "Purina Pro Plan"
+}

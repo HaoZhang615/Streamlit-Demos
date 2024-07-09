@@ -1,0 +1,78 @@
+{
+    "customer_id": 14,
+    "messages": [
+        {
+            "role": "assistant",
+            "content": "Thank you for calling Nestl\u00e9 customer service. My name is Adam. May I know your name, please?"
+        },
+        {
+            "role": "user",
+            "content": "Hi Adam, my name is Tara."
+        },
+        {
+            "role": "assistant",
+            "content": "Nice to meet you, Tara. How can I assist you today?"
+        },
+        {
+            "role": "user",
+            "content": "I have some questions about the payment process for the Nespresso Coffee Machine."
+        },
+        {
+            "role": "assistant",
+            "content": "Sure, I'd be happy to help with that. What specifically would you like to know?"
+        },
+        {
+            "role": "user",
+            "content": "I made a payment a few days ago, but I haven't received any confirmation. Is there any way to check if the payment went through?"
+        },
+        {
+            "role": "assistant",
+            "content": "I can definitely look into that for you. Could you please provide me with the order number or any transaction details you have?"
+        },
+        {
+            "role": "user",
+            "content": "I don't have the order number right now. Can\u2019t you check it with just my name or email?"
+        },
+        {
+            "role": "assistant",
+            "content": "I understand, Tara. Let me check using your email address. Can you please provide it?"
+        },
+        {
+            "role": "user",
+            "content": "Sure, my email is tara.smith@example.com."
+        },
+        {
+            "role": "assistant",
+            "content": "Thank you. Please hold on for a moment while I check our system."
+        },
+        {
+            "role": "assistant",
+            "content": "Tara, I see the payment is still pending. It looks like there might have been an issue with the transaction. I recommend contacting your bank to ensure everything is okay on their end."
+        },
+        {
+            "role": "user",
+            "content": "This is really frustrating. I need that machine urgently. Is there any other way to expedite this?"
+        },
+        {
+            "role": "assistant",
+            "content": "I understand your frustration, Tara. If you prefer, you can try making the payment again using a different method, or I can assist you with placing a new order over the phone."
+        },
+        {
+            "role": "user",
+            "content": "I guess I'll try making the payment again online. Thanks for your help, Adam."
+        },
+        {
+            "role": "assistant",
+            "content": "You're welcome, Tara. If you encounter any further issues, please don't hesitate to reach out. Have a great day!"
+        },
+        {
+            "role": "user",
+            "content": "Thanks, you too."
+        }
+    ],
+    "agent_id": 3,
+    "session_id": "8837bc65-c370-4728-9a7f-a31149f417b1",
+    "sentiment": "mixed",
+    "topic": "payment",
+    "product": "Nespresso Coffee Machine"
+}

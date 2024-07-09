@@ -1,0 +1,58 @@
+{
+    "customer_id": 12,
+    "messages": [
+        {
+            "role": "assistant",
+            "content": "Thank you for calling Nestl\u00e9 customer service. My name is Fred. May I know your name, please?"
+        },
+        {
+            "role": "user",
+            "content": "Hi Fred, this is Nicole. I'm really frustrated right now. I need help with your Maggi Soy Sauce."
+        },
+        {
+            "role": "assistant",
+            "content": "I'm sorry to hear that you're having trouble, Nicole. How can I assist you with the Maggi Soy Sauce today?"
+        },
+        {
+            "role": "user",
+            "content": "I've been trying to find it in stores and it's either out of stock or not available at all! This has been going on for weeks."
+        },
+        {
+            "role": "assistant",
+            "content": "I understand your frustration, Nicole. The demand for Maggi Soy Sauce has been quite high recently. Let me check the availability in your area. Could you please provide me with your zip code?"
+        },
+        {
+            "role": "user",
+            "content": "It's 90210. But this is ridiculous! I don't have time to keep running around looking for it."
+        },
+        {
+            "role": "assistant",
+            "content": "Thank you, Nicole. I'll look into it right away. In the meantime, have you tried ordering it online? Sometimes it\u2019s easier to find it there."
+        },
+        {
+            "role": "user",
+            "content": "Yes, I tried online too! It's either sold out or the shipping takes forever. I can't wait that long."
+        },
+        {
+            "role": "assistant",
+            "content": "I understand your urgency. I found a few stores in your area that are expected to restock within the next few days. I\u2019ll also escalate this issue to ensure better availability. Can I have your email address to keep you updated?"
+        },
+        {
+            "role": "user",
+            "content": "Fine, it's nicole@example.com. Just make sure something gets done about this."
+        },
+        {
+            "role": "assistant",
+            "content": "Thank you, Nicole. I'll make sure to keep you updated and do everything possible to resolve this issue quickly. Is there anything else I can help you with today?"
+        },
+        {
+            "role": "user",
+            "content": "No, just fix this. Thanks."
+        }
+    ],
+    "agent_id": 3,
+    "session_id": "5628180e-0723-42fc-a2fb-05fe7a49d85e",
+    "topic": "assistance",
+    "product": "Maggi Soy Sauce",
+    "sentiment": "frustrated"
+}

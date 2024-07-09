@@ -1,0 +1,70 @@
+{
+    "customer_id": 15,
+    "messages": [
+        {
+            "role": "assistant",
+            "content": "Thank you for calling Nestl\u00e9 customer service. My name is Curie. May I know your name, please?"
+        },
+        {
+            "role": "user",
+            "content": "Hi Curie, my name is Ursula."
+        },
+        {
+            "role": "assistant",
+            "content": "Nice to meet you, Ursula. How can I assist you today?"
+        },
+        {
+            "role": "user",
+            "content": "I am really disappointed with my Nespresso Coffee Machine. I am having issues with my account and it's been frustrating."
+        },
+        {
+            "role": "assistant",
+            "content": "I\u2019m sorry to hear that, Ursula. Let's see what we can do to resolve these issues. Can you please tell me more about the problems you're facing with your account?"
+        },
+        {
+            "role": "user",
+            "content": "I can't seem to log into my account to order coffee pods. I've tried resetting my password multiple times, but I never receive the reset email."
+        },
+        {
+            "role": "assistant",
+            "content": "That sounds very frustrating, Ursula. Let me check your account details and see what might be causing this issue. Can you please provide me with the email address associated with your account?"
+        },
+        {
+            "role": "user",
+            "content": "It's ursula@example.com."
+        },
+        {
+            "role": "assistant",
+            "content": "Thank you, Ursula. I see that there seems to be an issue with the email server on our end. I will escalate this to our technical team right away. In the meantime, I can help you place an order for coffee pods over the phone if that works for you."
+        },
+        {
+            "role": "user",
+            "content": "I appreciate that, but I would prefer to handle it myself once the account issue is resolved. How long will it take for your technical team to fix this?"
+        },
+        {
+            "role": "assistant",
+            "content": "I understand, Ursula. Typically, our technical team resolves such issues within 24-48 hours. I will ensure that your case is marked as high priority."
+        },
+        {
+            "role": "user",
+            "content": "Alright, I guess I'll wait. But please ensure it gets resolved quickly. This has been quite an inconvenience."
+        },
+        {
+            "role": "assistant",
+            "content": "I will do my best to expedite the process, Ursula. I apologize for the inconvenience this has caused. Is there anything else I can assist you with in the meantime?"
+        },
+        {
+            "role": "user",
+            "content": "No, that's all for now. Just make sure my account gets fixed soon."
+        },
+        {
+            "role": "assistant",
+            "content": "Absolutely, Ursula. I will keep you updated on the progress. Thank you for your patience and understanding."
+        }
+    ],
+    "agent_id": 3,
+    "session_id": "509141f1-632b-4f1b-a316-05899890c1ea",
+    "topic": "account",
+    "product": "Nespresso Coffee Machine",
+    "sentiment": "disappointed"
+}

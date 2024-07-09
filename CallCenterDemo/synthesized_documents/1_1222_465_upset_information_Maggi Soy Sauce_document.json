@@ -1,0 +1,54 @@
+{
+    "customer_id": 12,
+    "messages": [
+        {
+            "role": "assistant",
+            "content": "Hi, thank you for calling Nestl\u00e9 customer service. My name is Fred. May I know your name, please?"
+        },
+        {
+            "role": "user",
+            "content": "My name is Nicole. I'm really frustrated right now!"
+        },
+        {
+            "role": "assistant",
+            "content": "I'm sorry to hear that you're upset, Nicole. How can I assist you today?"
+        },
+        {
+            "role": "user",
+            "content": "I need information about your Maggi Soy Sauce. I've been trying to find details online but it's just not clear!"
+        },
+        {
+            "role": "assistant",
+            "content": "I understand your frustration, Nicole. What specific information are you looking for regarding Maggi Soy Sauce?"
+        },
+        {
+            "role": "user",
+            "content": "I want to know what ingredients are in it. I have food allergies and can't find a clear list anywhere!"
+        },
+        {
+            "role": "assistant",
+            "content": "I apologize for the inconvenience, Nicole. The Maggi Soy Sauce contains water, soybeans, wheat, salt, and preservatives. Are there any specific allergens you're concerned about?"
+        },
+        {
+            "role": "user",
+            "content": "Yes, I'm allergic to wheat! Why isn't this information easily available on your website?"
+        },
+        {
+            "role": "assistant",
+            "content": "I understand your concern, Nicole. We strive to make all ingredient information accessible, but it seems we need to improve our online resources. I will escalate your feedback to the relevant team. Is there anything else I can help you with?"
+        },
+        {
+            "role": "user",
+            "content": "No, just make sure this gets fixed. It's really important for people with allergies!"
+        },
+        {
+            "role": "assistant",
+            "content": "Absolutely, Nicole. We take food allergies seriously and I will ensure your feedback is forwarded to the right department. Thank you for bringing this to our attention."
+        }
+    ],
+    "agent_id": 3,
+    "session_id": "89fcbdad-3b77-482f-b8ec-4eda0caf6146",
+    "sentiment": "upset",
+    "topic": "information",
+    "product": "Maggi Soy Sauce"
+}

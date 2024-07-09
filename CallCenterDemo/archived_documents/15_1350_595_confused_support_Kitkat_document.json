@@ -1,0 +1,70 @@
+{
+    "customer_id": 15,
+    "messages": [
+        {
+            "role": "assistant",
+            "content": "Thank you for calling Nestl\u00e9 customer service. My name is Betrace. May I have your name, please?"
+        },
+        {
+            "role": "user",
+            "content": "Hi, I'm Tara."
+        },
+        {
+            "role": "assistant",
+            "content": "Hi Tara, it's nice to meet you. How can I assist you today?"
+        },
+        {
+            "role": "user",
+            "content": "I'm a bit confused about something. I recently bought a Kitkat and there seems to be something off with it."
+        },
+        {
+            "role": "assistant",
+            "content": "I understand, Tara. Could you please provide more details about what's wrong with the Kitkat?"
+        },
+        {
+            "role": "user",
+            "content": "Well, the texture seems different from what I'm used to. It's not as crisp and the taste is a bit off."
+        },
+        {
+            "role": "assistant",
+            "content": "Thank you for sharing that with me, Tara. Did you notice if the packaging was damaged or if the product was past its expiration date?"
+        },
+        {
+            "role": "user",
+            "content": "No, the packaging looked fine and the expiration date is still good. That's why I'm so confused."
+        },
+        {
+            "role": "assistant",
+            "content": "I see. It sounds like there might have been an issue during production. Can you please provide the batch number and the store where you purchased it? This will help us investigate further."
+        },
+        {
+            "role": "user",
+            "content": "The batch number is 12345XYZ and I bought it from the local grocery store."
+        },
+        {
+            "role": "assistant",
+            "content": "Thank you, Tara. We apologize for any inconvenience this has caused. I'll forward this information to our quality control team for further investigation. In the meantime, we would like to send you a replacement Kitkat. Could you please confirm your mailing address?"
+        },
+        {
+            "role": "user",
+            "content": "Sure, my address is 123 Main Street, Springfield."
+        },
+        {
+            "role": "assistant",
+            "content": "Got it. We'll send out a replacement Kitkat to you as soon as possible. If you have any other questions or need further assistance, please don't hesitate to reach out."
+        },
+        {
+            "role": "user",
+            "content": "Thanks, Betrace. I appreciate your help."
+        },
+        {
+            "role": "assistant",
+            "content": "You're welcome, Tara. Have a great day!"
+        }
+    ],
+    "agent_id": 3,
+    "session_id": "3d45b65f-7075-46ab-bfe8-54c1cb6dfa93",
+    "topic": "support",
+    "product": "Kitkat",
+    "sentiment": "confused"
+}

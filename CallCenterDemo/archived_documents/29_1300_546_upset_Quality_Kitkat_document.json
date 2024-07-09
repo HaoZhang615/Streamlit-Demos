@@ -1,0 +1,62 @@
+{
+    "customer_id": 14,
+    "messages": [
+        {
+            "role": "assistant",
+            "content": "Thank you for calling Nestl\u00e9 customer service. My name is Adam. May I know your name, please?"
+        },
+        {
+            "role": "user",
+            "content": "My name is Ian."
+        },
+        {
+            "role": "assistant",
+            "content": "Hi Ian, how can I assist you today?"
+        },
+        {
+            "role": "user",
+            "content": "I'm really upset with the quality of the KitKat bars I've been buying recently. They don't taste the same and the texture is off."
+        },
+        {
+            "role": "assistant",
+            "content": "I'm sorry to hear that, Ian. We take quality issues very seriously. Could you provide more details about the problem you're experiencing with the KitKat bars?"
+        },
+        {
+            "role": "user",
+            "content": "The chocolate coating seems thinner, and the wafer inside is stale. It's not what I'm used to from KitKat."
+        },
+        {
+            "role": "assistant",
+            "content": "I understand your frustration, Ian. This is definitely not the experience we want our customers to have. Could you tell me where and when you purchased these KitKat bars?"
+        },
+        {
+            "role": "user",
+            "content": "I bought them from my local grocery store about a week ago. I've tried three different bars from the same pack, and they all had the same issue."
+        },
+        {
+            "role": "assistant",
+            "content": "Thank you for providing that information, Ian. I will forward this to our quality control team for further investigation. In the meantime, we would like to send you a replacement pack of KitKat bars. Can you please provide your address?"
+        },
+        {
+            "role": "user",
+            "content": "Fine. My address is 123 Main Street, Springfield."
+        },
+        {
+            "role": "assistant",
+            "content": "Got it. We will send out the replacement pack as soon as possible. Is there anything else I can assist you with today?"
+        },
+        {
+            "role": "user",
+            "content": "No, just make sure this doesn't happen again. It's really disappointing."
+        },
+        {
+            "role": "assistant",
+            "content": "I understand, Ian. We appreciate your feedback and will do everything we can to ensure it doesn't happen again. Thank you for bringing this to our attention."
+        }
+    ],
+    "agent_id": 3,
+    "session_id": "17607f1a-eada-48d3-9a09-baa58d6bba64",
+    "topic": "Quality",
+    "product": "Kitkat",
+    "sentiment": "upset"
+}

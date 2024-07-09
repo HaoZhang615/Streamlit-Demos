@@ -1,0 +1,58 @@
+{
+    "customer_id": 19,
+    "messages": [
+        {
+            "role": "assistant",
+            "content": "Thank you for calling Nestl\u00e9 customer service. My name is Emil. May I know your name, please?"
+        },
+        {
+            "role": "user",
+            "content": "This is Tara. I'm having a real issue with my Nespresso Coffee Machine and I need some help."
+        },
+        {
+            "role": "assistant",
+            "content": "I'm sorry to hear that you're having trouble, Tara. Could you please provide me with more details about the issue you're experiencing with your Nespresso Coffee Machine?"
+        },
+        {
+            "role": "user",
+            "content": "It's just not working! Every time I try to use it, it makes a weird noise and nothing comes out. I've tried everything!"
+        },
+        {
+            "role": "assistant",
+            "content": "I understand how frustrating that must be, Tara. Let's see if we can get this resolved for you. Can you tell me if there are any error messages displayed on the machine?"
+        },
+        {
+            "role": "user",
+            "content": "No error messages. It's just making that awful noise and not doing anything. I don't have time for this."
+        },
+        {
+            "role": "assistant",
+            "content": "I apologize for the inconvenience, Tara. We can certainly look into this issue further. Can you please provide me with the serial number of your Nespresso Coffee Machine? This will help us identify the specific model and any potential known issues."
+        },
+        {
+            "role": "user",
+            "content": "The serial number is 67890XYZ. I need this fixed now. Can you do that?"
+        },
+        {
+            "role": "assistant",
+            "content": "Thank you for providing the serial number, Tara. I'll check our records and see what we can do to resolve this issue quickly. In the meantime, can you confirm if you've tried unplugging the machine and plugging it back in after a few minutes?"
+        },
+        {
+            "role": "user",
+            "content": "Yes, I've tried that already. Look, I just need this sorted out as soon as possible."
+        },
+        {
+            "role": "assistant",
+            "content": "I understand, Tara. Based on the information you've provided, it sounds like your machine may need to be serviced. I'll initiate the repair process for you. Our support team will contact you shortly with the next steps. You should expect an email within 24 hours."
+        },
+        {
+            "role": "user",
+            "content": "Alright, but make sure it's quick. I've had enough of this hassle."
+        }
+    ],
+    "agent_id": 4,
+    "session_id": "e95d6ac2-9ca4-4644-83d3-c6970dbc7007",
+    "topic": "assistance",
+    "product": "Nespresso Coffee Machine",
+    "sentiment": "upset"
+}

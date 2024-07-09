@@ -1,0 +1,66 @@
+{
+    "customer_id": 17,
+    "messages": [
+        {
+            "role": "assistant",
+            "content": "Thank you for calling Nestl\u00e9 customer service. My name is Fred. May I know your name, please?"
+        },
+        {
+            "role": "user",
+            "content": "It's Emma. I'm really upset about the payment issue I encountered with your Maggi Soy Sauce."
+        },
+        {
+            "role": "assistant",
+            "content": "I'm sorry to hear that, Emma. Can you please elaborate on the payment issue you're experiencing?"
+        },
+        {
+            "role": "user",
+            "content": "I placed an order for Maggi Soy Sauce, but I was charged twice! This is ridiculous!"
+        },
+        {
+            "role": "assistant",
+            "content": "I apologize for the inconvenience, Emma. Let me look into this for you. Could you please provide me with your order number?"
+        },
+        {
+            "role": "user",
+            "content": "It's 123456. I need this sorted out immediately!"
+        },
+        {
+            "role": "assistant",
+            "content": "Thank you for the information, Emma. I'll check your order details right away. Please hold on for a moment."
+        },
+        {
+            "role": "user",
+            "content": "Fine, but make it quick."
+        },
+        {
+            "role": "assistant",
+            "content": "Emma, I see that you were indeed charged twice for the same order. I sincerely apologize for this error. I will initiate a refund for the extra charge immediately. You should see the refunded amount back in your account within 3-5 business days."
+        },
+        {
+            "role": "user",
+            "content": "This is so frustrating. I shouldn't have to deal with this kind of mistake."
+        },
+        {
+            "role": "assistant",
+            "content": "I completely understand your frustration, Emma, and I am truly sorry for the inconvenience. Is there anything else I can assist you with regarding your order or any other Nestl\u00e9 product?"
+        },
+        {
+            "role": "user",
+            "content": "No, just make sure this doesn't happen again."
+        },
+        {
+            "role": "assistant",
+            "content": "I will ensure that this issue is addressed and does not happen again. Thank you for bringing it to our attention, Emma. Have a good day."
+        },
+        {
+            "role": "user",
+            "content": "Yeah, whatever."
+        }
+    ],
+    "agent_id": 3,
+    "session_id": "caba4261-c98e-40ae-8cfc-8a745d16a791",
+    "topic": "payment",
+    "product": "Maggi Soy Sauce",
+    "sentiment": "angry"
+}

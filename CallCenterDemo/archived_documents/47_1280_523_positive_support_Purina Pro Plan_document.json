@@ -1,0 +1,62 @@
+{
+    "customer_id": 15,
+    "messages": [
+        {
+            "role": "assistant",
+            "content": "Thank you for contacting Nestl\u00e9 customer support. My name is Curie. May I know your name, please?"
+        },
+        {
+            "role": "user",
+            "content": "Hi Curie, my name is Alex."
+        },
+        {
+            "role": "assistant",
+            "content": "Nice to meet you, Alex! How can I assist you today?"
+        },
+        {
+            "role": "user",
+            "content": "I have a question about the Purina Pro Plan product."
+        },
+        {
+            "role": "assistant",
+            "content": "Of course, Alex! I'd be happy to help you with that. What would you like to know about Purina Pro Plan?"
+        },
+        {
+            "role": "user",
+            "content": "I wanted to know if the Purina Pro Plan is suitable for dogs with sensitive stomachs."
+        },
+        {
+            "role": "assistant",
+            "content": "Great question, Alex! Purina Pro Plan offers specific formulas designed for dogs with sensitive stomachs. They contain easily digestible ingredients and added prebiotics to help support digestive health. Would you like more details on a specific formula?"
+        },
+        {
+            "role": "user",
+            "content": "Yes, please. Could you tell me more about the Sensitive Skin & Stomach formula?"
+        },
+        {
+            "role": "assistant",
+            "content": "Certainly! The Purina Pro Plan Sensitive Skin & Stomach formula is made with salmon as the first ingredient and includes oatmeal, which is gentle on the digestive system. It's also rich in omega-6 fatty acids and zinc to help nourish the skin and promote a healthy coat. Does that sound like what you're looking for?"
+        },
+        {
+            "role": "user",
+            "content": "Yes, that sounds perfect! Thank you so much for your help, Curie."
+        },
+        {
+            "role": "assistant",
+            "content": "You're very welcome, Alex! I'm glad I could assist you. If you have any more questions, feel free to ask!"
+        },
+        {
+            "role": "user",
+            "content": "Will do. Have a great day!"
+        },
+        {
+            "role": "assistant",
+            "content": "You too, Alex! Take care!"
+        }
+    ],
+    "agent_id": 3,
+    "session_id": "6953e8de-52ea-4624-b116-23ab1dae3eb8",
+    "topic": "support",
+    "product": "Purina Pro Plan",
+    "sentiment": "positive"
+}

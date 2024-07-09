@@ -1,0 +1,62 @@
+{
+    "customer_id": 15,
+    "messages": [
+        {
+            "role": "assistant",
+            "content": "Thank you for calling Nestl\u00e9 customer service. My name is Davinci. May I know your name, please?"
+        },
+        {
+            "role": "user",
+            "content": "It's Brian. And I'm really frustrated right now!"
+        },
+        {
+            "role": "assistant",
+            "content": "I\u2019m sorry to hear that you're frustrated, Brian. How can I assist you today?"
+        },
+        {
+            "role": "user",
+            "content": "I've had it with your Nespresso Coffee Capsules! They never seem to be in stock and when they are, the quality has gone downhill. I'm seriously considering switching to another brand."
+        },
+        {
+            "role": "assistant",
+            "content": "I apologize for the inconvenience, Brian. Your experience is important to us. Can you provide more details on the specific issues you\u2019ve been facing with the Nespresso Coffee Capsules?"
+        },
+        {
+            "role": "user",
+            "content": "What's the point? It's the same every time. Capsules are either out of stock or they taste awful when I finally get them. I'm tired of this!"
+        },
+        {
+            "role": "assistant",
+            "content": "I understand your frustration, Brian. We take these concerns very seriously and want to improve your experience. I can check the stock and quality control reports for your preferred capsules. Can you tell me which specific capsules you've had issues with?"
+        },
+        {
+            "role": "user",
+            "content": "It's the Ristretto capsules. They used to be my favorite, but now they taste burnt and bitter. And don\u2019t even get me started on how many times I've tried to order them only to find out they\u2019re out of stock."
+        },
+        {
+            "role": "assistant",
+            "content": "Thank you for the details, Brian. I\u2019ll escalate this to our quality control team immediately and ensure that we address the stock availability. In the meantime, can I offer you a discount on your next purchase as a gesture of goodwill?"
+        },
+        {
+            "role": "user",
+            "content": "A discount? What makes you think I want to buy more after all this? I'm ready to take my business elsewhere!"
+        },
+        {
+            "role": "assistant",
+            "content": "I understand your perspective, Brian. We value your loyalty and want to make things right. If there's anything specific you'd like us to do to retain your business, please let me know, and I'll do my best to accommodate."
+        },
+        {
+            "role": "user",
+            "content": "Just fix the stock issues and improve the quality. If this doesn\u2019t change soon, I\u2019m out."
+        },
+        {
+            "role": "assistant",
+            "content": "I assure you, Brian, we will address these issues promptly. Your feedback is crucial to us, and we will work hard to regain your trust. Thank you for bringing this to our attention."
+        }
+    ],
+    "agent_id": 3,
+    "session_id": "7251084a-dd6f-4a7f-8ae0-d835783d90c9",
+    "sentiment": "angry",
+    "topic": "churn",
+    "product": "Nespresso Coffee Capsule"
+}

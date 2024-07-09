@@ -1,0 +1,70 @@
+{
+    "customer_id": 15,
+    "messages": [
+        {
+            "role": "assistant",
+            "content": "Hello! Thank you for calling Nestl\u00e9 customer service. My name is Adam. May I know your name, please?"
+        },
+        {
+            "role": "user",
+            "content": "Hi Adam, I'm Alex."
+        },
+        {
+            "role": "assistant",
+            "content": "Nice to meet you, Alex. How can I assist you today?"
+        },
+        {
+            "role": "user",
+            "content": "I'm looking for some information about the Nespresso Coffee Capsules. Can you tell me more about them?"
+        },
+        {
+            "role": "assistant",
+            "content": "Of course, Alex! Our Nespresso Coffee Capsules come in a variety of flavors and intensities. They are designed to deliver a premium coffee experience. Is there something specific you would like to know about?"
+        },
+        {
+            "role": "user",
+            "content": "Well, I'm a bit confused about the different types. There are so many options. How do I choose the right one?"
+        },
+        {
+            "role": "assistant",
+            "content": "I understand it can be overwhelming. We categorize them by intensity, flavor profile, and origin. Are you looking for something strong and intense, or perhaps a lighter, more fruity coffee?"
+        },
+        {
+            "role": "user",
+            "content": "I'm not sure. I usually like a strong cup of coffee in the morning, but sometimes I prefer something milder in the afternoon. Any recommendations?"
+        },
+        {
+            "role": "assistant",
+            "content": "For a strong morning coffee, you might enjoy our Ristretto or Arpeggio capsules. They have a higher intensity and rich flavor. For the afternoon, you could try the Livanto or Volluto, which are milder and have a balanced taste."
+        },
+        {
+            "role": "user",
+            "content": "That sounds good. But I also heard that some capsules are better for making lattes or cappuccinos. Is that true?"
+        },
+        {
+            "role": "assistant",
+            "content": "Yes, that's correct. For milk-based drinks like lattes or cappuccinos, we recommend capsules such as the Fortissio Lungo or the Capriccio. They blend well with milk and create a smooth, creamy texture."
+        },
+        {
+            "role": "user",
+            "content": "Alright, that helps a lot. I think I'll try a few of these options. Thanks for the information, Adam."
+        },
+        {
+            "role": "assistant",
+            "content": "You're welcome, Alex. If you have any more questions or need further assistance, feel free to ask. Enjoy your coffee!"
+        },
+        {
+            "role": "user",
+            "content": "Thanks, I will. Have a good day!"
+        },
+        {
+            "role": "assistant",
+            "content": "You too, Alex. Take care!"
+        }
+    ],
+    "agent_id": 3,
+    "session_id": "122599e5-e665-44cc-b9c4-8e98b3f93fc9",
+    "topic": "information",
+    "product": "Nespresso Coffee Capsule",
+    "sentiment": "mixed"
+}

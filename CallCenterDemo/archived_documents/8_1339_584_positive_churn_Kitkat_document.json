@@ -1,0 +1,62 @@
+{
+    "customer_id": 17,
+    "messages": [
+        {
+            "role": "assistant",
+            "content": "Thank you for calling Nestl\u00e9 customer service. My name is Betrace. May I know your name, please?"
+        },
+        {
+            "role": "user",
+            "content": "Hi Betrace, my name is Paula."
+        },
+        {
+            "role": "assistant",
+            "content": "Nice to meet you, Paula! How can I assist you today?"
+        },
+        {
+            "role": "user",
+            "content": "I have some questions about KitKat. I absolutely love it, but I'm curious about what makes it so unique."
+        },
+        {
+            "role": "assistant",
+            "content": "I'm glad to hear you love KitKat, Paula! KitKat is unique because of its crispy wafer covered in smooth milk chocolate, which gives it that perfect balance of texture and flavor. Is there anything specific you'd like to know more about?"
+        },
+        {
+            "role": "user",
+            "content": "That sounds amazing! I'm also curious about the different flavors available. Are there any new ones coming out soon?"
+        },
+        {
+            "role": "assistant",
+            "content": "Yes, we have a variety of flavors ranging from classic milk chocolate to more exotic ones like green tea and wasabi! We are always innovating and introducing new flavors, so keep an eye out for our latest releases. Is there a particular flavor you're hoping to try?"
+        },
+        {
+            "role": "user",
+            "content": "I'm always excited to try new things. I heard about the green tea flavor and it sounds intriguing. How can I stay updated on new releases?"
+        },
+        {
+            "role": "assistant",
+            "content": "You can stay updated by following us on our social media channels and subscribing to our newsletter. We regularly post updates about new product launches and promotions. Would you like me to subscribe you to our newsletter?"
+        },
+        {
+            "role": "user",
+            "content": "Yes, that would be great! I can't wait to hear about new KitKat flavors."
+        },
+        {
+            "role": "assistant",
+            "content": "Perfect! I've added you to our newsletter list. You'll be among the first to know about our new flavors and promotions. Is there anything else I can help you with today, Paula?"
+        },
+        {
+            "role": "user",
+            "content": "No, that's all for now. Thank you so much for your help, Betrace!"
+        },
+        {
+            "role": "assistant",
+            "content": "You're welcome, Paula! Have a wonderful day and enjoy your KitKats!"
+        }
+    ],
+    "agent_id": 3,
+    "session_id": "cb64a979-2c22-4e17-bc04-9b18a8682691",
+    "topic": "churn",
+    "product": "Kitkat",
+    "sentiment": "positive"
+}

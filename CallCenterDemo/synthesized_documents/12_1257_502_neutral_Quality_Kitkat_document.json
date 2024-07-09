@@ -1,0 +1,62 @@
+{
+    "customer_id": 14,
+    "messages": [
+        {
+            "role": "assistant",
+            "content": "Thank you for contacting Nestl\u00e9 customer service. My name is Adam. May I know your name, please?"
+        },
+        {
+            "role": "user",
+            "content": "Hi Adam, my name is Fiona."
+        },
+        {
+            "role": "assistant",
+            "content": "Hi Fiona, nice to meet you. How can I assist you today?"
+        },
+        {
+            "role": "user",
+            "content": "I have a question about the quality of your KitKat product."
+        },
+        {
+            "role": "assistant",
+            "content": "Of course, Fiona. What specific concerns or questions do you have about the quality of KitKat?"
+        },
+        {
+            "role": "user",
+            "content": "I've noticed that the texture seems different in the last batch I purchased. Is there a reason for this change?"
+        },
+        {
+            "role": "assistant",
+            "content": "I understand your concern, Fiona. There haven't been any recent changes to the KitKat recipe. However, variations in texture can sometimes occur due to factors like storage conditions or temperature changes during transit."
+        },
+        {
+            "role": "user",
+            "content": "That makes sense. Could it also be related to the production date?"
+        },
+        {
+            "role": "assistant",
+            "content": "Yes, that's a possibility. Occasionally, products closer to their expiration date might experience slight changes in texture. Do you have the production date or batch number from the packaging?"
+        },
+        {
+            "role": "user",
+            "content": "Let me check. Yes, the batch number is 12345 and the production date is June 15, 2023."
+        },
+        {
+            "role": "assistant",
+            "content": "Thank you for providing that information. I'll forward these details to our quality control team to investigate further. In the meantime, if you experience any other issues, please let us know."
+        },
+        {
+            "role": "user",
+            "content": "Will do. Thanks for your help, Adam."
+        },
+        {
+            "role": "assistant",
+            "content": "You're welcome, Fiona. Have a great day!"
+        }
+    ],
+    "agent_id": 3,
+    "session_id": "e176659e-a6d3-471a-af75-ee464f5f951a",
+    "sentiment": "neutral",
+    "topic": "Quality",
+    "product": "Kitkat"
+}

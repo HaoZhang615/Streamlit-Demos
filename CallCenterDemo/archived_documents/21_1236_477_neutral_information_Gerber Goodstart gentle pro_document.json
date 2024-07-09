@@ -1,0 +1,54 @@
+{
+    "customer_id": 17,
+    "messages": [
+        {
+            "role": "assistant",
+            "content": "Thank you for contacting Nestl\u00e9 customer service. My name is Betrace. May I know your name, please?"
+        },
+        {
+            "role": "user",
+            "content": "Hi Betrace, my name is Alex."
+        },
+        {
+            "role": "assistant",
+            "content": "Nice to meet you, Alex! How can I assist you today?"
+        },
+        {
+            "role": "user",
+            "content": "I have some questions about the Gerber Goodstart Gentle Pro. Can you provide more information about this product?"
+        },
+        {
+            "role": "assistant",
+            "content": "Of course, Alex. Gerber Goodstart Gentle Pro is a formula designed to be gentle on your baby's tummy. It features Comfort Proteins, which are small proteins that are easy to digest. Is there something specific you would like to know about it?"
+        },
+        {
+            "role": "user",
+            "content": "Yes, I am interested in knowing if it contains any probiotics."
+        },
+        {
+            "role": "assistant",
+            "content": "Yes, Gerber Goodstart Gentle Pro includes probiotics, specifically B. lactis, which help support digestive health. Are you interested in any other details?"
+        },
+        {
+            "role": "user",
+            "content": "That sounds good. Can you tell me if it is suitable for infants with lactose intolerance?"
+        },
+        {
+            "role": "assistant",
+            "content": "Gerber Goodstart Gentle Pro is designed for babies who might have difficulty digesting regular formula, but it does contain lactose. If your infant has a diagnosed lactose intolerance, you might want to consider a lactose-free formula. Would you like recommendations on lactose-free options?"
+        },
+        {
+            "role": "user",
+            "content": "No, that won't be necessary. Thanks for the information, Betrace."
+        },
+        {
+            "role": "assistant",
+            "content": "You're welcome, Alex. If you have any more questions or need further assistance, feel free to reach out. Have a great day!"
+        }
+    ],
+    "agent_id": 3,
+    "session_id": "8f673d8d-c78e-471b-b28c-1a1b16a45368",
+    "topic": "information",
+    "product": "Gerber Goodstart gentle pro",
+    "sentiment": "neutral"
+}

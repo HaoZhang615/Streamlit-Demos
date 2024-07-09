@@ -1,0 +1,62 @@
+{
+    "customer_id": 15,
+    "messages": [
+        {
+            "role": "assistant",
+            "content": "Thank you for contacting Nestl\u00e9 customer service. My name is Curie. May I have your name, please?"
+        },
+        {
+            "role": "user",
+            "content": "It's Oliver. I'm really upset about my order."
+        },
+        {
+            "role": "assistant",
+            "content": "I'm sorry to hear that, Oliver. Could you please tell me more about the issue you're experiencing with your order?"
+        },
+        {
+            "role": "user",
+            "content": "I ordered a box of KitKats and it was supposed to arrive two days ago. Where is it?"
+        },
+        {
+            "role": "assistant",
+            "content": "I understand your frustration, Oliver. Let me check the status of your delivery. Can you please provide me with your order number?"
+        },
+        {
+            "role": "user",
+            "content": "The order number is 123456. I need this resolved quickly."
+        },
+        {
+            "role": "assistant",
+            "content": "Thank you, Oliver. I see that your order has been delayed due to a logistical issue. I apologize for the inconvenience. We are working hard to get your KitKats to you as soon as possible."
+        },
+        {
+            "role": "user",
+            "content": "This is unacceptable. I paid for expedited shipping!"
+        },
+        {
+            "role": "assistant",
+            "content": "I understand, Oliver. As a gesture of goodwill, we will refund your shipping cost and ensure that your package is prioritized for delivery. You should receive it by tomorrow."
+        },
+        {
+            "role": "user",
+            "content": "It better arrive tomorrow. I've already waited too long."
+        },
+        {
+            "role": "assistant",
+            "content": "I completely understand, Oliver. Is there anything else I can assist you with today?"
+        },
+        {
+            "role": "user",
+            "content": "No, just make sure it gets here."
+        },
+        {
+            "role": "assistant",
+            "content": "Absolutely, Oliver. We appreciate your patience and understanding. Have a good day."
+        }
+    ],
+    "agent_id": 3,
+    "session_id": "3e30f0d0-f106-4269-9899-77a324da1cf0",
+    "topic": "delivery",
+    "product": "Kitkat",
+    "sentiment": "upset"
+}

@@ -1,0 +1,62 @@
+{
+    "customer_id": 17,
+    "messages": [
+        {
+            "role": "assistant",
+            "content": "Thank you for calling Nestl\u00e9 customer service. My name is Fred. May I know your name, please?"
+        },
+        {
+            "role": "user",
+            "content": "Hi Fred, my name is Emma."
+        },
+        {
+            "role": "assistant",
+            "content": "Nice to meet you, Emma. How can I assist you today?"
+        },
+        {
+            "role": "user",
+            "content": "I'm interested in learning more about the nutritional information of Nespresso Coffee Capsules. Can you help me with that?"
+        },
+        {
+            "role": "assistant",
+            "content": "Absolutely, Emma! Nespresso Coffee Capsules are designed to provide a premium coffee experience with high-quality ingredients. Are you looking for specific nutritional details or general information?"
+        },
+        {
+            "role": "user",
+            "content": "I'd like to know about the calories, sugars, and any other notable nutritional content."
+        },
+        {
+            "role": "assistant",
+            "content": "Sure thing! A typical Nespresso Coffee Capsule contains around 2 calories per serving, and it has no added sugars or fats. The capsules are primarily made of coffee, so they are very low in any other nutrients."
+        },
+        {
+            "role": "user",
+            "content": "That's great to hear! It's good to know that they are low in calories and sugars. Are there any other nutritional aspects I should be aware of?"
+        },
+        {
+            "role": "assistant",
+            "content": "Nespresso Capsules are quite straightforward. They do not contain any significant amounts of proteins, fats, or carbohydrates. The primary ingredient is high-quality coffee, which provides a rich flavor without adding extra calories."
+        },
+        {
+            "role": "user",
+            "content": "Thank you so much, Fred. This information is very helpful. I appreciate your time and assistance."
+        },
+        {
+            "role": "assistant",
+            "content": "You're welcome, Emma! I'm glad I could help. If you have any other questions about our products, feel free to ask."
+        },
+        {
+            "role": "user",
+            "content": "Will do, Fred. Have a great day!"
+        },
+        {
+            "role": "assistant",
+            "content": "You too, Emma! Thank you for calling Nestl\u00e9 customer service."
+        }
+    ],
+    "agent_id": 3,
+    "session_id": "5babe829-4000-4381-b5aa-2748a6ed219c",
+    "topic": "Nutrition information",
+    "product": "Nespresso Coffee Capsule",
+    "sentiment": "positive"
+}

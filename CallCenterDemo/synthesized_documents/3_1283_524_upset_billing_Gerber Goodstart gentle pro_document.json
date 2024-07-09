@@ -1,0 +1,62 @@
+{
+    "customer_id": 14,
+    "messages": [
+        {
+            "role": "assistant",
+            "content": "Thank you for calling Nestl\u00e9 customer service. My name is Adam. May I have your name, please?"
+        },
+        {
+            "role": "user",
+            "content": "Hi Adam, this is David. I'm really upset about my recent bill."
+        },
+        {
+            "role": "assistant",
+            "content": "I'm sorry to hear that, David. Could you please tell me more about the issue you're experiencing with your bill?"
+        },
+        {
+            "role": "user",
+            "content": "I was charged way more than I expected for the Gerber Goodstart Gentle Pro formula. This is ridiculous!"
+        },
+        {
+            "role": "assistant",
+            "content": "I understand your frustration, David. Let me pull up your account details and take a closer look at the charges. Could you please provide me with your billing account number?"
+        },
+        {
+            "role": "user",
+            "content": "Sure, it's 123456789."
+        },
+        {
+            "role": "assistant",
+            "content": "Thank you, David. I see that there was an additional charge applied to your account. Let me verify why this charge was added."
+        },
+        {
+            "role": "user",
+            "content": "This is unacceptable. I've been a loyal customer for years and now I'm being overcharged?"
+        },
+        {
+            "role": "assistant",
+            "content": "I apologize for the inconvenience, David. It seems the extra charge was due to a recent price adjustment that wasn't communicated properly. I can offer you a refund for the additional amount. Would that be acceptable?"
+        },
+        {
+            "role": "user",
+            "content": "A refund better be the least you can do. I hope this doesn't happen again."
+        },
+        {
+            "role": "assistant",
+            "content": "I completely understand, David. I'll initiate the refund process right away and ensure that this issue is flagged so it doesn't recur. Is there anything else I can assist you with today?"
+        },
+        {
+            "role": "user",
+            "content": "No, just make sure I get that refund. Thanks."
+        },
+        {
+            "role": "assistant",
+            "content": "Absolutely, David. Your refund will be processed immediately. Have a great day!"
+        }
+    ],
+    "agent_id": 3,
+    "session_id": "7664c6b2-3bf2-4ec9-b0b2-08c6672145aa",
+    "sentiment": "upset",
+    "topic": "billing",
+    "product": "Gerber Goodstart gentle pro"
+}

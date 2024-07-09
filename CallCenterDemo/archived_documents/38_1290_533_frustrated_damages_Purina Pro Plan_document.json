@@ -1,0 +1,54 @@
+{
+    "customer_id": 17,
+    "messages": [
+        {
+            "role": "assistant",
+            "content": "Thank you for calling Nestl\u00e9 customer service. My name is Betrace. May I know your name, please?"
+        },
+        {
+            "role": "user",
+            "content": "Hi Betrace, this is Ian. I'm really frustrated with the Purina Pro Plan I bought. The package arrived damaged, and I need this sorted out immediately."
+        },
+        {
+            "role": "assistant",
+            "content": "I'm really sorry to hear that, Ian. I understand your frustration. Could you please provide me with the details of the damage and any order information you have?"
+        },
+        {
+            "role": "user",
+            "content": "The box was ripped open, and the contents were all over the place. I couldn't even use it. Order number is 123456789."
+        },
+        {
+            "role": "assistant",
+            "content": "Thank you for providing the order number, Ian. I'll look into this right away. While I check, could you also let me know if you've taken any photos of the damaged package?"
+        },
+        {
+            "role": "user",
+            "content": "Yes, I took some photos. I can send them over if needed. But what's the point? I just want this fixed!"
+        },
+        {
+            "role": "assistant",
+            "content": "I completely understand, Ian. The photos will help us expedite the process. Could you please send them to our customer service email at support@nestle.com? In the meantime, I'll start the process for a replacement order."
+        },
+        {
+            "role": "user",
+            "content": "Alright, I'll send them now. But seriously, this is the last time I'm dealing with this if it doesn't get resolved quickly."
+        },
+        {
+            "role": "assistant",
+            "content": "I assure you, Ian, we'll handle this as swiftly as possible. Once we receive the photos, I'll confirm the replacement order and ensure it's shipped out to you immediately."
+        },
+        {
+            "role": "user",
+            "content": "Fine, I'm sending the photos now. Just get this sorted."
+        },
+        {
+            "role": "assistant",
+            "content": "Thank you, Ian. Our team will process this urgently. You'll receive a confirmation email shortly. If there's anything else I can assist you with, please let me know."
+        }
+    ],
+    "agent_id": 3,
+    "session_id": "ed03db50-f9e8-48a1-b85c-5b120a82651d",
+    "topic": "damages",
+    "product": "Purina Pro Plan",
+    "sentiment": "frustrated"
+}

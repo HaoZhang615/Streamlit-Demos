@@ -1,0 +1,66 @@
+{
+    "customer_id": 17,
+    "messages": [
+        {
+            "role": "assistant",
+            "content": "Hi, thank you for calling Nestl\u00e9 customer service. My name is Adam. May I know your name, please?"
+        },
+        {
+            "role": "user",
+            "content": "Hi Adam, my name is Hannah."
+        },
+        {
+            "role": "assistant",
+            "content": "Nice to meet you, Hannah. How can I assist you today?"
+        },
+        {
+            "role": "user",
+            "content": "I'm really disappointed with your delivery service. I ordered Purina Pro Plan for my dog, and it hasn't arrived yet."
+        },
+        {
+            "role": "assistant",
+            "content": "I'm sorry to hear that, Hannah. Let me check the status of your delivery for you. Could you please provide your order number?"
+        },
+        {
+            "role": "user",
+            "content": "Sure, the order number is 456789."
+        },
+        {
+            "role": "assistant",
+            "content": "Thank you, Hannah. Let me look into that for you. Please hold on for a moment."
+        },
+        {
+            "role": "assistant",
+            "content": "Hannah, it appears that there has been a delay with the shipping of your Purina Pro Plan. The new estimated delivery date is in three days."
+        },
+        {
+            "role": "user",
+            "content": "Three more days? That's unacceptable. My dog needs his food now. What are you going to do about it?"
+        },
+        {
+            "role": "assistant",
+            "content": "I understand your frustration, Hannah, and I apologize for the inconvenience. I will escalate this issue to our shipping department to see if we can expedite your delivery. In the meantime, I can offer you a discount on your next purchase."
+        },
+        {
+            "role": "user",
+            "content": "A discount on my next purchase doesn't help me now. I need the food as soon as possible."
+        },
+        {
+            "role": "assistant",
+            "content": "I completely understand, Hannah. I will make sure to escalate this matter with high priority. Is there anything else I can assist you with while we work on expediting your delivery?"
+        },
+        {
+            "role": "user",
+            "content": "Just make sure it gets here fast. That's all."
+        },
+        {
+            "role": "assistant",
+            "content": "I will do everything I can to ensure it gets to you as quickly as possible. Thank you for your patience, Hannah."
+        }
+    ],
+    "agent_id": 4,
+    "session_id": "9f65ab4b-1e0c-4dd6-ab42-6975bf2e0e00",
+    "topic": "delivery",
+    "product": "Purina Pro Plan",
+    "sentiment": "disappointed"
+}

@@ -1,0 +1,62 @@
+{
+    "customer_id": 15,
+    "messages": [
+        {
+            "role": "assistant",
+            "content": "Thank you for calling Nestl\u00e9 customer service. My name is Adam. May I know your name, please?"
+        },
+        {
+            "role": "user",
+            "content": "Hi Adam, I'm Kevin."
+        },
+        {
+            "role": "assistant",
+            "content": "Nice to meet you, Kevin. How can I assist you today?"
+        },
+        {
+            "role": "user",
+            "content": "Well, I wanted to talk about KitKat. I've been a fan for years, but lately, I've been hearing mixed things about the brand."
+        },
+        {
+            "role": "assistant",
+            "content": "I understand, Kevin. KitKat is one of our flagship products, and we always strive to maintain its quality and brand image. Is there something specific that's been concerning you?"
+        },
+        {
+            "role": "user",
+            "content": "I've heard some rumors about changes in the ingredients and that the quality isn't what it used to be. Can you shed some light on this?"
+        },
+        {
+            "role": "assistant",
+            "content": "I assure you, Kevin, that we are committed to maintaining the high quality of KitKat. There have been no changes in the core ingredients. We continuously monitor our production processes to ensure the best quality for our customers."
+        },
+        {
+            "role": "user",
+            "content": "That's good to hear, but some friends mentioned that the taste seems different. Are you sure nothing has changed?"
+        },
+        {
+            "role": "assistant",
+            "content": "I can confirm that there have been no recent changes to the recipe, Kevin. However, taste can be subjective and can sometimes vary due to different factors like storage and handling. If you have specific concerns, I'm here to help address them."
+        },
+        {
+            "role": "user",
+            "content": "I appreciate the clarification, Adam. I'm just worried that the brand might be compromising on quality to cut costs."
+        },
+        {
+            "role": "assistant",
+            "content": "Your concerns are valid, Kevin. I assure you that Nestl\u00e9 is committed to providing premium products without compromising on quality. If you experience any issues with our products, please do not hesitate to let us know. Your feedback is crucial to us."
+        },
+        {
+            "role": "user",
+            "content": "Thanks, Adam. I guess I'll keep enjoying my KitKats for now and hope the quality stays the same."
+        },
+        {
+            "role": "assistant",
+            "content": "Thank you for your understanding, Kevin. If you have any more questions or concerns in the future, feel free to reach out. Have a great day!"
+        }
+    ],
+    "agent_id": 4,
+    "session_id": "ce174f75-4c04-45f5-989e-fe2f3c0773b6",
+    "topic": "brand image",
+    "product": "Kitkat",
+    "sentiment": "mixed"
+}

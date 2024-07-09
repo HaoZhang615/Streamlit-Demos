@@ -1,0 +1,58 @@
+{
+    "customer_id": 15,
+    "messages": [
+        {
+            "role": "assistant",
+            "content": "Thank you for calling Nestl\u00e9 customer service. My name is Fred. May I know your name, please?"
+        },
+        {
+            "role": "user",
+            "content": "Ursula. I need some information about the Gerber Goodstart Gentle Pro."
+        },
+        {
+            "role": "assistant",
+            "content": "Of course, Ursula. I can help with that. What specific information are you looking for about the Gerber Goodstart Gentle Pro?"
+        },
+        {
+            "role": "user",
+            "content": "I want to know why it's been so hard to find it in stores lately. It's really frustrating!"
+        },
+        {
+            "role": "assistant",
+            "content": "I apologize for the inconvenience, Ursula. There have been some supply chain disruptions recently. We're working hard to restock our products. Have you tried looking for it online?"
+        },
+        {
+            "role": "user",
+            "content": "Yes, I have. It's either out of stock or ridiculously overpriced. This is really stressing me out!"
+        },
+        {
+            "role": "assistant",
+            "content": "I understand your frustration, Ursula. Let me check our system for any updates on the availability of Gerber Goodstart Gentle Pro and see if I can find a store or an online retailer that has it in stock."
+        },
+        {
+            "role": "user",
+            "content": "Fine, but this is really unacceptable. I shouldn't have to jump through hoops to get baby formula."
+        },
+        {
+            "role": "assistant",
+            "content": "You're absolutely right, Ursula. I apologize for the inconvenience. I've found a couple of online retailers that currently have Gerber Goodstart Gentle Pro in stock. Would you like me to email you the details?"
+        },
+        {
+            "role": "user",
+            "content": "Yes, please do that. I hope this doesn't happen again."
+        },
+        {
+            "role": "assistant",
+            "content": "I completely understand, Ursula. I'll send you the details right away. If you have any other questions or need further assistance, please don't hesitate to ask."
+        },
+        {
+            "role": "user",
+            "content": "Alright, thank you. Just send that email quickly."
+        }
+    ],
+    "agent_id": 3,
+    "session_id": "d81bf060-cd09-4d91-a656-bac818560957",
+    "topic": "information",
+    "product": "Gerber Goodstart gentle pro",
+    "sentiment": "frustrated"
+}

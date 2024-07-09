@@ -1,0 +1,62 @@
+{
+    "customer_id": 17,
+    "messages": [
+        {
+            "role": "assistant",
+            "content": "Thank you for calling Nestl\u00e9 customer service. My name is Davinci. May I have your name, please?"
+        },
+        {
+            "role": "user",
+            "content": "It's Rachel. And I'm really frustrated right now!"
+        },
+        {
+            "role": "assistant",
+            "content": "I'm sorry to hear that you're upset, Rachel. How can I assist you today?"
+        },
+        {
+            "role": "user",
+            "content": "I want to know the nutrition information for your Nespresso Coffee Capsules. Why is this so hard to find?"
+        },
+        {
+            "role": "assistant",
+            "content": "I apologize for the inconvenience, Rachel. I can definitely help you with that. Which specific Nespresso Coffee Capsule are you inquiring about?"
+        },
+        {
+            "role": "user",
+            "content": "All of them! I don't understand why this isn't easily available on your website."
+        },
+        {
+            "role": "assistant",
+            "content": "I understand your frustration. The nutrition information for Nespresso Coffee Capsules can sometimes be tricky to locate. Generally, they contain no added sugars or fats and are very low in calories. However, I can provide you with detailed information for each specific type. Can you tell me which flavors you are interested in?"
+        },
+        {
+            "role": "user",
+            "content": "I shouldn't have to tell you which flavors! Just give me a general idea. This is ridiculous."
+        },
+        {
+            "role": "assistant",
+            "content": "I apologize for the trouble, Rachel. In general, Nespresso Coffee Capsules are made from pure coffee with no additives. Each capsule typically contains about 1-2 calories, 0 grams of sugar, and 0 grams of fat. If you need more specific information about a particular flavor, I can look that up for you."
+        },
+        {
+            "role": "user",
+            "content": "Fine. That'll do for now. Just make sure this information is easier to find in the future."
+        },
+        {
+            "role": "assistant",
+            "content": "Thank you for your feedback, Rachel. I'll make sure to pass it along to the relevant team. Is there anything else I can assist you with today?"
+        },
+        {
+            "role": "user",
+            "content": "No, that's it. Just fix your website."
+        },
+        {
+            "role": "assistant",
+            "content": "I understand, Rachel. Thank you for bringing this to our attention. Have a good day."
+        }
+    ],
+    "agent_id": 3,
+    "session_id": "d3de453d-67a5-4267-b7a9-04d7a41d959c",
+    "topic": "Nutrition information",
+    "product": "Nespresso Coffee Capsule",
+    "sentiment": "angry"
+}

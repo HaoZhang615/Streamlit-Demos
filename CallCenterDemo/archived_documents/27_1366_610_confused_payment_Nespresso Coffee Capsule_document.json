@@ -1,0 +1,74 @@
+{
+    "customer_id": 14,
+    "messages": [
+        {
+            "role": "assistant",
+            "content": "Thank you for calling Nestl\u00e9 customer service. My name is Adam. May I know your name, please?"
+        },
+        {
+            "role": "user",
+            "content": "Hi Adam, my name is Paula."
+        },
+        {
+            "role": "assistant",
+            "content": "Hello Paula! How can I assist you today?"
+        },
+        {
+            "role": "user",
+            "content": "Well, I'm a bit confused about a payment I made for some Nespresso Coffee Capsules."
+        },
+        {
+            "role": "assistant",
+            "content": "I see. Could you please provide me with more details about the issue you're facing with the payment?"
+        },
+        {
+            "role": "user",
+            "content": "Sure, I placed an order for Nespresso Coffee Capsules last week, and I think the payment went through twice. I only received one order confirmation."
+        },
+        {
+            "role": "assistant",
+            "content": "I understand, Paula. Let me check your account and the order details. Could you please provide me with your order number or email address associated with the purchase?"
+        },
+        {
+            "role": "user",
+            "content": "My order number is 789456123, and the email I used is paula@example.com."
+        },
+        {
+            "role": "assistant",
+            "content": "Thank you, Paula. Please hold on for a moment while I look into this for you."
+        },
+        {
+            "role": "assistant",
+            "content": "Thank you for waiting, Paula. I have checked your account and it appears that the payment was indeed processed twice. I apologize for the inconvenience. I will initiate a refund for the duplicate payment right away."
+        },
+        {
+            "role": "user",
+            "content": "Oh, okay. Thank you, Adam. How long will it take for the refund to be processed?"
+        },
+        {
+            "role": "assistant",
+            "content": "The refund should be processed within 3-5 business days. You will receive a confirmation email once the refund has been issued."
+        },
+        {
+            "role": "user",
+            "content": "Alright, thank you. I was really worried there for a moment."
+        },
+        {
+            "role": "assistant",
+            "content": "I'm glad I could help clarify the situation, Paula. If you have any other questions or need further assistance, please don't hesitate to ask."
+        },
+        {
+            "role": "user",
+            "content": "That's all for now. Thanks again, Adam."
+        },
+        {
+            "role": "assistant",
+            "content": "You're welcome, Paula. Have a great day!"
+        }
+    ],
+    "agent_id": 3,
+    "session_id": "12392cc2-91c3-4df8-813a-819cd23e5775",
+    "topic": "payment",
+    "product": "Nespresso Coffee Capsule",
+    "sentiment": "confused"
+}

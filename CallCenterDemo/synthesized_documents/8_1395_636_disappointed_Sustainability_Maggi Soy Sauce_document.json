@@ -1,0 +1,62 @@
+{
+    "customer_id": 17,
+    "messages": [
+        {
+            "role": "assistant",
+            "content": "Thank you for contacting Nestl\u00e9 customer service. My name is Curie. May I know your name, please?"
+        },
+        {
+            "role": "user",
+            "content": "Hi Curie, my name is Yvonne."
+        },
+        {
+            "role": "assistant",
+            "content": "Nice to meet you, Yvonne. How can I assist you today?"
+        },
+        {
+            "role": "user",
+            "content": "I have some concerns about the sustainability practices of Nestl\u00e9, particularly regarding your Maggi Soy Sauce. I was hoping you could provide some information."
+        },
+        {
+            "role": "assistant",
+            "content": "I understand your concern, Yvonne. We at Nestl\u00e9 are committed to sustainability. Could you please specify what particular aspects you are worried about?"
+        },
+        {
+            "role": "user",
+            "content": "I am disappointed with the lack of transparency about the sourcing of the ingredients for Maggi Soy Sauce. How can I be sure that they are sustainably sourced?"
+        },
+        {
+            "role": "assistant",
+            "content": "I apologize for any inconvenience, Yvonne. I can assure you that we are continuously working to improve our sourcing practices. Maggi Soy Sauce ingredients are selected with care, and we strive to source them sustainably. Do you have any specific ingredients you are concerned about?"
+        },
+        {
+            "role": "user",
+            "content": "Yes, mainly the soybeans. I\u2019ve read reports that soybean farming can be very harmful to the environment."
+        },
+        {
+            "role": "assistant",
+            "content": "You are right, Yvonne. Soybean farming can have significant environmental impacts. Nestl\u00e9 is committed to responsible sourcing and we are working with suppliers to ensure that our soybeans are sustainably sourced. We aim to use soybeans that are grown with respect for the environment and local communities."
+        },
+        {
+            "role": "user",
+            "content": "I appreciate your efforts, but I still feel like there isn\u2019t enough transparency. How can customers trust that Nestl\u00e9 is really making a difference?"
+        },
+        {
+            "role": "assistant",
+            "content": "I understand your concerns, Yvonne. We are working on improving our transparency and regularly publish sustainability reports to keep our customers informed. We are also open to feedback and continuously strive to improve our practices. Your feedback is invaluable in helping us do better."
+        },
+        {
+            "role": "user",
+            "content": "Alright, I\u2019ll keep an eye on your reports. I hope to see real improvements soon."
+        },
+        {
+            "role": "assistant",
+            "content": "Thank you for your understanding, Yvonne. If you have any more questions or need further assistance, feel free to reach out. We value your input and are here to help."
+        }
+    ],
+    "agent_id": 3,
+    "session_id": "d5ca9d44-8a0d-4c12-a0ad-c6836ef4050a",
+    "sentiment": "disappointed",
+    "topic": "Sustainability",
+    "product": "Maggi Soy Sauce"
+}

@@ -1,0 +1,62 @@
+{
+    "customer_id": 15,
+    "messages": [
+        {
+            "role": "assistant",
+            "content": "Thank you for calling Nestl\u00e9 customer service. My name is Davinci. May I know your name, please?"
+        },
+        {
+            "role": "user",
+            "content": "Hi Davinci, my name is Rachel."
+        },
+        {
+            "role": "assistant",
+            "content": "Nice to meet you, Rachel. How can I assist you today?"
+        },
+        {
+            "role": "user",
+            "content": "I have a question about my account and the KitKat product."
+        },
+        {
+            "role": "assistant",
+            "content": "Of course, Rachel. What would you like to know about your account and KitKat?"
+        },
+        {
+            "role": "user",
+            "content": "I wanted to check if there are any special offers or discounts on KitKat available in my account."
+        },
+        {
+            "role": "assistant",
+            "content": "Let me check that for you, Rachel. Could you please provide me with your account email or ID?"
+        },
+        {
+            "role": "user",
+            "content": "Sure, my account email is rachel@example.com."
+        },
+        {
+            "role": "assistant",
+            "content": "Thank you, Rachel. I see that you have some loyalty points accumulated. Currently, there are no specific discounts on KitKat, but you can use your loyalty points to get a discount on your next purchase."
+        },
+        {
+            "role": "user",
+            "content": "That's great! How can I use my loyalty points to get the discount?"
+        },
+        {
+            "role": "assistant",
+            "content": "You can apply your loyalty points at checkout. Just make sure you're logged into your account, and you will see the option to use your points for a discount."
+        },
+        {
+            "role": "user",
+            "content": "Perfect, thanks for the help, Davinci!"
+        },
+        {
+            "role": "assistant",
+            "content": "You're welcome, Rachel! If you have any other questions or need further assistance, feel free to reach out."
+        }
+    ],
+    "agent_id": 3,
+    "session_id": "74d02bf0-740d-47e8-82e5-10f3ca7ac42d",
+    "topic": "account",
+    "product": "Kitkat",
+    "sentiment": "content"
+}

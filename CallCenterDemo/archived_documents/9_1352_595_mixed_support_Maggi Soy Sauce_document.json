@@ -1,0 +1,70 @@
+{
+    "customer_id": 3,
+    "messages": [
+        {
+            "role": "assistant",
+            "content": "Thank you for calling Nestl\u00e9 customer support. This is Emil. May I know your name, please?"
+        },
+        {
+            "role": "user",
+            "content": "Hi Emil, I'm Ursula."
+        },
+        {
+            "role": "assistant",
+            "content": "Hi Ursula, it's nice to meet you. How can I assist you today?"
+        },
+        {
+            "role": "user",
+            "content": "I have some questions about your Maggi Soy Sauce. I've been using it for a while, but recently it seems different."
+        },
+        {
+            "role": "assistant",
+            "content": "I'm sorry to hear that, Ursula. Can you tell me more about what seems different with the Maggi Soy Sauce?"
+        },
+        {
+            "role": "user",
+            "content": "It just tastes a bit off. I'm not sure if it's a bad batch or if the recipe has changed."
+        },
+        {
+            "role": "assistant",
+            "content": "I understand your concern. To clarify, we haven't changed the recipe recently. However, quality can vary slightly from batch to batch. Could you provide me with the batch number on the bottle?"
+        },
+        {
+            "role": "user",
+            "content": "Sure, the batch number is 23456B."
+        },
+        {
+            "role": "assistant",
+            "content": "Thank you, Ursula. I'll check our records for any reported issues with that batch. In the meantime, would you like us to send you a replacement bottle?"
+        },
+        {
+            "role": "user",
+            "content": "That would be great, but I'm also curious about what might have gone wrong with this one."
+        },
+        {
+            "role": "assistant",
+            "content": "I completely understand your curiosity. I'll escalate this issue to our quality control team for further investigation. We take these matters seriously and will get back to you with any findings."
+        },
+        {
+            "role": "user",
+            "content": "Alright, I appreciate that. It's just frustrating when something you rely on changes unexpectedly."
+        },
+        {
+            "role": "assistant",
+            "content": "I can imagine, Ursula. We aim to provide consistent quality with all our products. Your feedback is valuable, and we will look into it thoroughly. Is there anything else I can help you with today?"
+        },
+        {
+            "role": "user",
+            "content": "No, that's all for now. Thanks for your help, Emil."
+        },
+        {
+            "role": "assistant",
+            "content": "You're welcome, Ursula. Have a great day!"
+        }
+    ],
+    "agent_id": 2,
+    "session_id": "d977016f-d322-4e9f-8eb2-1807c45fab53",
+    "topic": "support",
+    "product": "Maggi Soy Sauce",
+    "sentiment": "mixed"
+}

@@ -1,0 +1,70 @@
+{
+    "customer_id": 14,
+    "messages": [
+        {
+            "role": "assistant",
+            "content": "Thank you for calling Nestl\u00e9 customer service. My name is Betrace. May I know your name, please?"
+        },
+        {
+            "role": "user",
+            "content": "It's Fiona."
+        },
+        {
+            "role": "assistant",
+            "content": "Hi Fiona, how can I assist you today?"
+        },
+        {
+            "role": "user",
+            "content": "I have an issue with the payment for my Nespresso Coffee Machine. It's been a nightmare!"
+        },
+        {
+            "role": "assistant",
+            "content": "I'm sorry to hear that, Fiona. Could you please provide me with more details about the issue you're facing?"
+        },
+        {
+            "role": "user",
+            "content": "I was charged twice for the Nespresso Coffee Machine and my bank statement shows two deductions. This is unacceptable!"
+        },
+        {
+            "role": "assistant",
+            "content": "I apologize for the inconvenience, Fiona. Let me check your account details and see what went wrong. Could you please share the order number with me?"
+        },
+        {
+            "role": "user",
+            "content": "The order number is 56789. I need this resolved immediately."
+        },
+        {
+            "role": "assistant",
+            "content": "Thank you for the information, Fiona. I see the duplicate charge on your account. I will process a refund for the extra charge immediately. You should see the refund in your account within 3-5 business days."
+        },
+        {
+            "role": "user",
+            "content": "3-5 business days? That's too long. Why can't it be done now?"
+        },
+        {
+            "role": "assistant",
+            "content": "I understand your frustration, Fiona. Unfortunately, the banking process takes a few days to complete the transaction. Rest assured, the refund is being processed on our end."
+        },
+        {
+            "role": "user",
+            "content": "This is just ridiculous. I expected better from Nestl\u00e9."
+        },
+        {
+            "role": "assistant",
+            "content": "I apologize for the inconvenience, Fiona. We value your feedback and will work to improve our services. Is there anything else I can assist you with today?"
+        },
+        {
+            "role": "user",
+            "content": "No, just make sure the refund is processed as soon as possible."
+        },
+        {
+            "role": "assistant",
+            "content": "Absolutely, Fiona. Thank you for bringing this to our attention. Have a great day."
+        }
+    ],
+    "agent_id": 5,
+    "session_id": "21747606-af54-48a1-ac28-3775cebe3c65",
+    "topic": "payment",
+    "product": "Nespresso Coffee Machine",
+    "sentiment": "negative"
+}
