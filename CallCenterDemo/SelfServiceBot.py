@@ -117,7 +117,7 @@ with st.sidebar:
 if "messages" not in st.session_state:  
     st.session_state.messages = []  
     st.session_state.session_id = str(uuid.uuid4())  # Unique session ID  
-    print(st.session_state.session_id)
+    #print(st.session_state.session_id)
 # Bing Custome Search Configuration
 bing_api_key = st.secrets["BING_CUSTOM_SEARCH_API_KEY"]
 bing_api_endpoint = st.secrets["BING_CUSTOM_SEARCH_API_ENDPOINT"]
@@ -200,7 +200,7 @@ def nestle_chat(user_request, conversation_history: list = []):
         }
         ]
     messages.extend(conversation_history)
-    print(messages)
+    #print(messages)
     # Step 1: send the conversation and available functions to the model
     messages.append({"role": "user", "content": user_request})
     response = client.chat.completions.create(
