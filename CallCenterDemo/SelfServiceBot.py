@@ -95,7 +95,7 @@ with st.sidebar:
         neutral_color="#6aa36f",
         icon_size="3x",
         sample_rate=41_000,
-        auto_start=False,
+        # auto_start=False,
     )
     
     if custom_audio_bytes:
