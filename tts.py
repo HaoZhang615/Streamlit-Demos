@@ -18,9 +18,10 @@ def text_to_speech(input:str):
         "model": "tts",
         "response_format": "mp3"
     }
+    print(url)
     response = requests.post(url, headers=headers, data=json.dumps(body))
-    # with open("output.mp3", "wb") as f:
-    #         f.write(response.content)
+    with open("output.mp3", "wb") as f:
+            f.write(response.content)
     return response.content
 
 text_to_speech("come to my bedroom and let's have some fun")
