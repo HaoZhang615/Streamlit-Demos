@@ -132,6 +132,7 @@ def aoai_on_your_data(query):
                 function_args = json.loads(tool_call.function.arguments)
                 user_request = function_args.get("user_request")
                 kb_search_response = search_internal_knowledge_bases(user_request)
+                print("KB search response:", kb_search_response)
                 messages.append({
                     "tool_call_id": tool_call.id,
                     "role": "tool",
