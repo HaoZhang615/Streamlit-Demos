@@ -6,12 +6,6 @@ import json
 import uuid
 from datetime import datetime
 
-# st.set_page_config(
-#     page_title="Azure AI assisted Customer Contact Center",
-#     page_icon="🧊",
-#     layout="wide",
-#     # initial_sidebar_state="expanded"
-# )
 # Set the title of the app
 st.title("AI Assisted Live Chat with Forwarded Customer Conversation")
 
@@ -19,7 +13,7 @@ st.title("AI Assisted Live Chat with Forwarded Customer Conversation")
 api_base = st.secrets["AOAI_API_BASE"] # your endpoint should look like the following https://YOUR_RESOURCE_NAME.openai.azure.com/
 api_key = st.secrets["AOAI_API_KEY"]
 api_version = "2024-02-01"
-gpt4_o = st.secrets["AOAI_GPT4_MODEL"]
+gpt4o_mini = st.secrets["AOAI_GPT4O_MINI_MODEL"]
 
 session_customer_id = st.session_state.customer_id
 
@@ -129,7 +123,7 @@ provide a key-points based summary with the key-points being: 'Issue Reported', 
     for message in messages:
         prompt += f"{message['role'].capitalize()}: {message['content']}\n"
     completion = client.chat.completions.create(
-    model=gpt4_o,
+    model=gpt4o_mini,
     temperature=0.0,
     max_tokens=300,
     messages=[
@@ -172,7 +166,7 @@ The existing conversation:\n\n"""
     if "new_messages" in st.session_state:
         messages.extend(st.session_state.new_messages)
     completion = client.chat.completions.create(
-    model=gpt4_o,
+    model=gpt4o_mini,
     temperature=0.5,
     max_tokens=800,
     messages=messages,
@@ -202,7 +196,7 @@ def human_chat(customer_id):
     if "new_messages" in st.session_state:
         messages.extend(st.session_state.new_messages)
     completion = client.chat.completions.create(
-    model=gpt4_o,
+    model=gpt4o_mini,
     temperature=0.5,
     max_tokens=800,
     messages=messages,
@@ -239,7 +233,7 @@ Output a JSON object with the key "topic", "product" and "sentiment". """
     for message in messages:
         prompt += f"{message['role'].capitalize()}: {message['content']}\n"
     completion = client.chat.completions.create(
-    model=gpt4_o,
+    model=gpt4o_mini,
     temperature=0.0,
     max_tokens=300,
     messages=[
