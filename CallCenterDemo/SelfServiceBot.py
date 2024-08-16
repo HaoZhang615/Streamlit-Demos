@@ -13,9 +13,9 @@ import re
 api_base = st.secrets["AOAI_API_BASE"] # your endpoint should look like the following https://YOUR_RESOURCE_NAME.openai.azure.com/
 api_key = st.secrets["AOAI_API_KEY"]
 api_version = "2024-02-01"
-gpt4_o = st.secrets["AOAI_GPT4_MODEL"]
+gpt4o_mini = st.secrets["AOAI_GPT4O_MINI_MODEL"]
 whisper = st.secrets["AOAI_WHISPER_MODEL"]
-tts = st.secrets["AOAI_TTS_MODEL"]
+tts = st.secrets["AOAI_TTS_MODEL"] 
 
 session_customer_id = st.session_state.customer_id
 client = AzureOpenAI(
@@ -49,7 +49,8 @@ def text_to_speech(input:str):
     url = f"{api_base}openai/deployments/{tts}/audio/speech?api-version=2024-05-01-preview"
     body = {
         "input": input,
-        "voice": "echo",
+        # use the echo voice if if customer_id is 3,4 or 5, else use the shimmer voice
+        "voice": "echo" if session_customer_id in [3,4,5] else "shimmer",
         "model": "tts",
         "response_format": "mp3"
     }
@@ -61,33 +62,10 @@ st.title("Azure OpenAI powered Self Service Chatbot")
 
 # Sidebar Configuration -- BEGIN
 with st.sidebar:
-    # # Temperature and token slider
-    # temperature = st.sidebar.slider(
-    #     "Temperature",
-    #     min_value=0.0,
-    #     max_value=1.0,
-    #     value=0.5,
-    #     step=0.1
-    # )
-    # Max_Token = st.sidebar.slider(
-    #     "Max. Tokens",
-    #     min_value=10,
-    #     max_value=4096,
-    #     value=800,
-    #     step=64
-    # )
     # add toggle to turn on and off the audio player
     if "voice_on" not in st.session_state:
         st.session_state.voice_on = False
     st.session_state.voice_on = st.toggle(label="Enable Voice Output", value=st.session_state.voice_on)
-    # dropdown for selecting the model with options for gpt-3.5 and gpt-4o, default is gpt-3.5. 
-    # If gpt-3.5 is selected, the model is set to use value of secret AOAI_GPT35_MODEL, else it uses AOAI_GPT4_MODEL
-    # model = st.selectbox("Select Model", ["gpt-3.5", "gpt-4o"], index=0)
-    # if model == "gpt-3.5":
-    #     model = st.secrets["AOAI_GPT35_MODEL"]
-    # else:    
-    #     model = st.secrets["AOAI_GPT4_MODEL"]
-    # st.subheader("Custom recorder") # https://github.com/Joooohan/audio-recorder-streamlit/blob/main/audio_recorder_streamlit/__init__.py
 
     custom_audio_bytes = audio_recorder(
         text="Click the microphone to start recording\n",
@@ -204,7 +182,7 @@ def nestle_chat(user_request, conversation_history: list = []):
     # Step 1: send the conversation and available functions to the model
     messages.append({"role": "user", "content": user_request})
     response = client.chat.completions.create(
-        model= gpt4_o,
+        model= gpt4o_mini,
         messages=messages,
         tools=tools_format(),
         tool_choice="auto",
@@ -275,7 +253,7 @@ def nestle_chat(user_request, conversation_history: list = []):
                 )
                 continue
         second_response = client.chat.completions.create(
-            model= gpt4_o,
+            model= gpt4o_mini,
             messages=messages,
             temperature=0.3,
             max_tokens=800,

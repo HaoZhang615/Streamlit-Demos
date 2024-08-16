@@ -137,7 +137,9 @@ query = f"SELECT * FROM c WHERE c.rag_app_id = '{md5_hash_string(URL)}'"
 results = list(container.query_items(query=query, enable_cross_partition_query=True))
 if len(results) > 0:
     # Extract relevant fields and convert them to a new list
+    # Extract relevant fields and convert them to a new list
     sub_results_list = []
+    line_evaluations_list = []
     for result in results:
         eval_results = result.get("eval_results", {})
         target_parameters = eval_results.get("target_parameters", {})
@@ -155,6 +157,9 @@ if len(results) > 0:
             "semantic_ranker": target_parameters.get("semantic_ranker", "N/A"),
             "num_questions": eval_results.get("num_questions", "N/A"),
             # Flattened metrics_summary
+            "similarity_pass_count": metrics_summary.get("gpt_similarity", {}).get("pass_count", "N/A"),
+            "similarity_pass_rate": metrics_summary.get("gpt_similarity", {}).get("pass_rate", "N/A"),
+            "similarity_mean_rating": metrics_summary.get("gpt_similarity", {}).get("mean_rating", "N/A"),
             "groundedness_pass_count": metrics_summary.get("gpt_groundedness", {}).get("pass_count", "N/A"),
             "groundedness_pass_rate": metrics_summary.get("gpt_groundedness", {}).get("pass_rate", "N/A"),
             "groundedness_mean_rating": metrics_summary.get("gpt_groundedness", {}).get("mean_rating", "N/A"),
@@ -169,6 +174,8 @@ if len(results) > 0:
             "fluency_mean_rating": metrics_summary.get("gpt_fluency", {}).get("mean_rating", "N/A")
         }
         sub_results_list.append(sub_result)
+        line_evaluations_list.append(result.get("eval_results", {}).get("line_evaluations", []))
+    
     df = pd.DataFrame(sub_results_list)
     # Display the table in Streamlit
     # Inject custom CSS for smaller title font size
@@ -187,4 +194,25 @@ if len(results) > 0:
 
     # Display the title with smaller font size
     st.markdown('<div class="title">Evaluation Results Summary</div>', unsafe_allow_html=True)
+
     st.dataframe(df, use_container_width=True)
+
+    # Create a selection box for the user to choose a row
+    selected_index = st.selectbox("Select a row to view line evaluations:", options=range(len(df)))
+
+    # Display the corresponding line_evaluations below the table
+    selected_evaluations = line_evaluations_list[selected_index]
+
+    st.markdown("### Line Evaluations for Selected Row")
+    for evaluation in selected_evaluations:
+        st.write(f"**Question:** {evaluation['question']}")
+        st.write(f"**Truth:** {evaluation['truth']}")
+        st.write(f"**Answer:** {evaluation['answer']}")
+        st.write(f"**Context:** {evaluation['context']}")
+        st.write(f"**gpt_similarity:** {evaluation['gpt_similarity']}")
+        st.write(f"**gpt_groundedness:** {evaluation['gpt_groundedness']}")
+        st.write(f"**gpt_relevance:** {evaluation['gpt_relevance']}")
+        st.write(f"**gpt_coherence:** {evaluation['gpt_coherence']}")
+        st.write(f"**gpt_fluency:** {evaluation['gpt_fluency']}")
+        st.write(f"**latency:** {evaluation['latency']}")
+        st.write("---")  # Separator between evaluations

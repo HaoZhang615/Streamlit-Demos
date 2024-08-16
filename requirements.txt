@@ -7,3 +7,4 @@ azure.search.documents
 jmespath
 azure-identity
 promptflow
+streamlit-aggrid
